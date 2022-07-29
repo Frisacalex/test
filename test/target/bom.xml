@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:cbd7bbe9-37e0-4777-a9c7-cff04ea8494e" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2022-07-29T07:52:02Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.1</version>
+        <hashes>
+          <hash alg="MD5">538c878ebf89b372876e247d056a3fc5</hash>
+          <hash alg="SHA-1">4561e50edb47e12a03712b1afce9b20cba32fd28</hash>
+          <hash alg="SHA-256">f0ea7b3bcf5c7ba649b8d9807e805385330501881677d47333aebce8305ef4d4</hash>
+          <hash alg="SHA-512">a35400ca6411692ae8964fe7030eaba2a83a2fa50e2883def3054191283c3b48e2dcdd68bf80f5a0ede3898cc6b7cb7b998aacd2c1e969320053c43b6ab8d873</hash>
+          <hash alg="SHA-384">75c0c03a03c69e82ad1f7b942d6d733da8261c4058174355d6b24ebd88cee34180f2e8484d2b0fedaf459078bdf6e927</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/test/test@1?type=jar">
+      <group>test</group>
+      <name>test</name>
+      <version>1</version>
+      <licenses/>
+      <purl>pkg:maven/test/test@1?type=jar</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter-web@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter-web</name>
+      <version>2.6.4</version>
+      <description>Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">8618aea418608b0bf0a0de9d0241bdd1</hash>
+        <hash alg="SHA-1">4aa74a41a8ff99e256433805b0ee63a6053d6b6c</hash>
+        <hash alg="SHA-256">a3a3fb70e7b48739cf627a11566711732a3cc3790c8c99f2b3ddca21dd0634fd</hash>
+        <hash alg="SHA-512">a56493546694148990f7e44810a322fc2415d96331b10889ee822ffbec2502eaf5d605afc775a4a95e0b325c4201c5e8436397ef1e0b86f644e182b3258064b0</hash>
+        <hash alg="SHA-384">611aee3d798e691e13bafd0c59b40a5d365b99347a087ceea0ce9996048bff0a3cb58ebbcf48e14ff4fd00d38f493877</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter-web@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter</name>
+      <version>2.6.4</version>
+      <description>Core starter, including auto-configuration support, logging and YAML</description>
+      <hashes>
+        <hash alg="MD5">ab44496aad747780e9b041d6bffb0a4a</hash>
+        <hash alg="SHA-1">31adf5f726b6a5703815b99056110b96db7eff58</hash>
+        <hash alg="SHA-256">80ca08a7854a528a842dd4aca478dff4b81be14b7bb593b1ccf14e69e0227279</hash>
+        <hash alg="SHA-512">e91d5eb4c883d07e418bebaebb1dbe865f04a9956e225ca9ff07195f902fedacc911b760a0e316332b2cb940838e75d053a29555b79131ef495172d85adba79c</hash>
+        <hash alg="SHA-384">f5a864e783b2e0e9a27c31457e9dd872a6a57968d9b406a7e151bc639b8cefa98ec996369d94ebb23882e49091cd0879</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot</name>
+      <version>2.6.4</version>
+      <description>Spring Boot</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">0217188388f45fb9dbd587b6e7340c9d</hash>
+        <hash alg="SHA-1">356c0ee25794ca46d8344d13cffbc30bfae1dc0e</hash>
+        <hash alg="SHA-256">aba8b3a3c89d25cae35477c325cc78321a5761a2c7f276c0c8e3ad4cf58bfce5</hash>
+        <hash alg="SHA-512">72d667121daa11cd77c7bc0dbcbd2398416a199f65698582ac96529640fdcbe19dd7adb5a467dbcd48e9284fa282d0ec6aaac336fc566229cb8467ed6bfa6302</hash>
+        <hash alg="SHA-384">2db9890b297a9fab6469af60743653ece8e726586fe6e3156a88c4d5f445adc768e3ca0c3fe863a3dabe59c6c45a8676</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-autoconfigure</name>
+      <version>2.6.4</version>
+      <description>Spring Boot AutoConfigure</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e65121fbaa66ffcf01ab12e46dad723a</hash>
+        <hash alg="SHA-1">36e75a2781fc604ac042945eed8be2fe049731df</hash>
+        <hash alg="SHA-256">d0bc8dcf5670e0d10eefb7c4bd642e8c197bd6da8a6ecc284174039ea8fe8f38</hash>
+        <hash alg="SHA-512">ef7568c87b17d699136ef0522579c638cb4b0ed0d2dc9147adff1f04454df25086127c655fe2ad10971c31d7d2aac5c151f49a935d770131deeb3d7d3cf71575</hash>
+        <hash alg="SHA-384">3f847f800933c2f29b8bf18b59e6adcdaa782869c8f5fadeee123cd39b1e416be9a065333744a77c490bba0f61938826</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter-logging</name>
+      <version>2.6.4</version>
+      <description>Starter for logging using Logback. Default logging starter</description>
+      <hashes>
+        <hash alg="MD5">434b8cd90cfa38ed5b3cceee924143ae</hash>
+        <hash alg="SHA-1">e8bab752fd29797df304ef2ad8575e5392d96c4c</hash>
+        <hash alg="SHA-256">2234b00e06601d93a4d70480949119f3f17026af682ac02034b4f1533f0221d9</hash>
+        <hash alg="SHA-512">eb08f6d1309320ed9168f2edc01bd99c961ee199cb6fb0f0a98c65007253322d61751c9c11e2a7312bd81cfe228b29eeec14ff019233f59a5c0b849acfee873c</hash>
+        <hash alg="SHA-384">328295c98b514689a758cd9398f3f221ba864b500e15bcb4a4acd97d7c2b8110409043ab2e36ebaa345f768583d5e4a7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.2.10?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>ch.qos.logback</group>
+      <name>logback-classic</name>
+      <version>1.2.10</version>
+      <description>logback-classic module</description>
+      <hashes>
+        <hash alg="MD5">98021917df75e0a36d0398f7352e5e4f</hash>
+        <hash alg="SHA-1">f69d97ef3335c6ab82fc21dfb77ac613f90c1221</hash>
+        <hash alg="SHA-256">3160ae988af82c8bf3024ddbe034a82da98bb186fd09e76c50543c5b9da5cc5e</hash>
+        <hash alg="SHA-512">8718b07d2629d89df0131b44df0ca7ace79a30ec43871fa9f004273fc9327ebd7ae8ac658daaa9e808e9bc3e0660c40dd8ce5bbd197d24e9b868f26e32957734</hash>
+        <hash alg="SHA-384">a2bdcf38059b68cba0aacc900f43152f1e32c87a49c9e16fedf3aa5b4af22ffa967ea86d1888a437753a2a9428e5cdd5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/ch.qos.logback/logback-classic@1.2.10?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.2.10?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>ch.qos.logback</group>
+      <name>logback-core</name>
+      <version>1.2.10</version>
+      <description>logback-core module</description>
+      <hashes>
+        <hash alg="MD5">697b37f140ce9ac35a4ca3eaf4059f1a</hash>
+        <hash alg="SHA-1">5328406bfcae7bcdcc86810fcb2920d2c297170d</hash>
+        <hash alg="SHA-256">ba51a3fe56691f9dd7fe742e4a73c3ab4aaaa32202c73409ba56f18687399a08</hash>
+        <hash alg="SHA-512">8dd5175ab32120dccd48e44166f9f35df389385ac808b5ef18d43bd2ef98e43d440d982155f231883a963994644d4c0baf701ef6fd1ace2c6dab13f98d8c9d53</hash>
+        <hash alg="SHA-384">452313d0e5ee35aef136e7db604d58cf782009d4bc0f0bbf25ac5c314377b7c2db72f8ff1cfa9095f7808ca6ed36946a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/ch.qos.logback/logback-core@1.2.10?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.logging.log4j</group>
+      <name>log4j-to-slf4j</name>
+      <version>2.17.1</version>
+      <description>The Apache Log4j binding between Log4j 2 API and SLF4J.</description>
+      <hashes>
+        <hash alg="MD5">2f2a1e32cd920b9cc15e6a87068b389a</hash>
+        <hash alg="SHA-1">3619fd18278a1a895c1dca8c5be002768071a20e</hash>
+        <hash alg="SHA-256">33cbcbada95d7597ff98fe0efa0bcf3d6f71b1d0e4177146dc67858d7be3f639</hash>
+        <hash alg="SHA-512">ef3de2ab5805bb3436fd99b356315571e521fd2c691401a0922955b7405b1e9435a4641cd80d3b15bf7d6eb96a92f19f5801a7e13b95b06b1b888d65f91ad91a</hash>
+        <hash alg="SHA-384">2c2a5de65924fcde47cde905cdf74c51454696ca8db1c53fe2daced75f23b03b7ea25fc0cdeeac9a31484ac166824adb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.1?type=jar</purl>
+      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Logging/job/log4j/</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.logging.log4j</group>
+      <name>log4j-api</name>
+      <version>2.17.1</version>
+      <description>The Apache Log4j API</description>
+      <hashes>
+        <hash alg="MD5">dfd5f2d81aba31583ee87fe16c7b78f8</hash>
+        <hash alg="SHA-1">d771af8e336e372fb5399c99edabe0919aeaf5b2</hash>
+        <hash alg="SHA-256">b0d8a4c8ab4fb8b1888d0095822703b0e6d4793c419550203da9e69196161de4</hash>
+        <hash alg="SHA-512">48a58c2f317d451ac1622bdfbfa5d3cd9de45d40d5d5df98f39fe6d53c74da56e200f8e3d19a309d4e1ea364369379c0ef9d79b928fc20ea743857f347259c03</hash>
+        <hash alg="SHA-384">3686abf7edebe4bd29bdae0495a6b881d38cfe7a870350d1f1b43056f51c25cd39a5fccb74a28abf62069862dd25e416</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.17.1?type=jar</purl>
+      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Logging/job/log4j/</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>jul-to-slf4j</name>
+      <version>1.7.36</version>
+      <description>JUL to SLF4J bridge</description>
+      <hashes>
+        <hash alg="MD5">2a3fe73e6cafe8f102facaf2dd65353f</hash>
+        <hash alg="SHA-1">ed46d81cef9c412a88caef405b58f93a678ff2ca</hash>
+        <hash alg="SHA-256">9e641fb142c5f0b0623d6222c09ea87523a41bf6bed48ac79940724010b989de</hash>
+        <hash alg="SHA-512">0bb1e7343d07d41bcfb0c1ffeb2db28cbb35e7a80a409b80042f463b082a292976f09d719e319471e31c7bab716121728a16509fd385fc6e3b400b1b214cffea</hash>
+        <hash alg="SHA-384">50e2f326fc00537a5fb3726c7c55556851b3be8b4346f522f27ddecf2fdb44adabae3197b30ccfd854c37d6734adbd8f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.annotation</group>
+      <name>jakarta.annotation-api</name>
+      <version>1.3.5</version>
+      <description>Jakarta Annotations API</description>
+      <hashes>
+        <hash alg="MD5">8b165cf58df5f8c2a222f637c0a07c97</hash>
+        <hash alg="SHA-1">59eb84ee0d616332ff44aba065f3888cf002cd2d</hash>
+        <hash alg="SHA-256">85fb03fc054cdf4efca8efd9b6712bbb418e1ab98241c4539c8585bbc23e1b8a</hash>
+        <hash alg="SHA-512">d1acff146c0f9ea923a9325ad4c22ba2052ec474341ab8392abab7e8abd3ca010db2400ff9b5849fc4f1fa5c0a18830eb104da07a13bd26b4f0a43d167935878</hash>
+        <hash alg="SHA-384">004a4bde333c0575f72df1cb9cf95ee0c6c7f738a6f0f723a5ec545aaa1664abeb82f01627708a1377e3136754fb7859</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/common-annotations-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/ca-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/common-annotations-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.yaml/snakeyaml@1.29?type=jar">
+      <group>org.yaml</group>
+      <name>snakeyaml</name>
+      <version>1.29</version>
+      <description>YAML 1.1 parser and emitter for Java</description>
+      <hashes>
+        <hash alg="MD5">5bdf841bc5abda0507fa5ce91c44cc86</hash>
+        <hash alg="SHA-1">6d0cdafb2010f1297e574656551d7145240f6e25</hash>
+        <hash alg="SHA-256">89c5f029811b08c878f0b81dbb05e9626624c1fda4087a26871101e499a217ab</hash>
+        <hash alg="SHA-512">940ba4a3db4aa19eb4e6b4154521f621c0e72465df94d2b84de3827ffe2cfba4aded0d4583ab8751467ba396d80effacab3653f565f95c12cb78d67f4e43e437</hash>
+        <hash alg="SHA-384">4486bcb65c28ceee93aae57b109d396557da0d8f5cb1167daa9a2f491922283b27cc192d54213c54f457252f59015925</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.yaml/snakeyaml@1.29?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://bitbucket.org/asomov/snakeyaml/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/asomov/snakeyaml/src</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter-json@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter-json</name>
+      <version>2.6.4</version>
+      <description>Starter for reading and writing json</description>
+      <hashes>
+        <hash alg="MD5">2bd718516e1e5c8bc03d3f1b6ed74330</hash>
+        <hash alg="SHA-1">9aa13f5bd6e09510d89ec3874118f027613a9565</hash>
+        <hash alg="SHA-256">b8a5e40114c5b18d467df74ee9353891a2d1d9b03760b177a258b9987456bddd</hash>
+        <hash alg="SHA-512">2bdae7b99365b04dc123247f6918468c9ee96ec06ba51db8bbb000f34aa70912d06d3b1d94014e7e756ad3fe5ab2511a14eb7cbcca9ff0a16709501c95972b5e</hash>
+        <hash alg="SHA-384">e2202925073060a43394aeea7c3d81d1ef2556c2c79d51428706c22818c97d15ee87f4fb609368836f6ad8f165c06d17</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter-json@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>2.13.1</version>
+      <description>General data-binding functionality for Jackson: works on core streaming API</description>
+      <hashes>
+        <hash alg="MD5">15699c52197c95cd66fb722ac93fc07c</hash>
+        <hash alg="SHA-1">698b2d2b15d9a1b7aae025f1d9f576842285e7f6</hash>
+        <hash alg="SHA-256">56cfbdc9e1736b5c56b43757f6cf546ee6d49393c79383c4e495c4f7047cb506</hash>
+        <hash alg="SHA-512">ef7a1a434a89d286612688d18f52036a400c85ea115cc7d5bf6f9e066881b49eb9d1bee9ef6466767ea35e565f717d853c727bd87d6e05df7064e57537ea218a</hash>
+        <hash alg="SHA-384">8feea2cd04ad6db9c7b5600fcb2cd98b487536d9e7f54d86420aa98173bddde00a66af31dbe9fca2bafbb6406a396d51</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.1?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-annotations</name>
+      <version>2.13.1</version>
+      <description>Core annotations used for value types, used by Jackson data binding package.</description>
+      <hashes>
+        <hash alg="MD5">9e2bb0894ba131c20c874331c9c04adc</hash>
+        <hash alg="SHA-1">1cbcbe4623113e6af92ccaa89884a345270f1a87</hash>
+        <hash alg="SHA-256">ab607939d288e22bff4cb97acc6b25e841d82681f2bc40ce67bb35cb0ffdb06d</hash>
+        <hash alg="SHA-512">c031040352d4b219e89d7d8989c51931a09820345edd58ae9f575f8b1e27be000215dcbe6c06ff9fa758b7baf59461d04a70100eade8156b4b18af2bb2d20728</hash>
+        <hash alg="SHA-384">af889d93559c60d4c2de16a22468e192b69a601b2f22be04bae88c880e0553aa12b74d60a251fe62d6ab2adfd6db00c1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.1?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-core</name>
+      <version>2.13.1</version>
+      <description>Core Jackson processing abstractions (aka Streaming API), implementation for JSON</description>
+      <hashes>
+        <hash alg="MD5">b5cf9290dc96e215e77f274794d5238e</hash>
+        <hash alg="SHA-1">51ae921a2ed1e06ca8876f12f32f265e83c0b2b8</hash>
+        <hash alg="SHA-256">8be6935cd8f9673ac684a589aaa1caecd57dee7c37ed1443d17924325799003d</hash>
+        <hash alg="SHA-512">a4e6890da21978dcca5ff5ad1807e19533c0638973d3d293e3271ad31664ca7713beb69a462bfb6535dd1b2a1fa5d2741ddfcce94e51167fcf9a1df119f4b92d</hash>
+        <hash alg="SHA-384">7c2f35993eea6e4ceed39018b4f6257524907978cce7088628b9aa4c3b1ebb9f2e1e7d415d6d0c2f45f3fc9bf74b4943</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.1?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.datatype</group>
+      <name>jackson-datatype-jdk8</name>
+      <version>2.13.1</version>
+      <description>Add-on module for Jackson (http://jackson.codehaus.org) to support
+JDK 8 data types.</description>
+      <hashes>
+        <hash alg="MD5">cdf2f3f2feef0be46e143f05378bafd2</hash>
+        <hash alg="SHA-1">8ecfa9bcd714269fdf22c33f9fd00d0643bd0e21</hash>
+        <hash alg="SHA-256">8fd36efc6cbda4f3f22400c1ea0d07f043fc0b8b80c9e3e4142b82e702b51118</hash>
+        <hash alg="SHA-512">20ad1d6f56e2ff400fd37868df5edef1f76f63443ac6f1d19feaa80e686786352a7fb0480ea3572784ea9195c9bfd73f248c1372d1041455640a8eafb5563bd4</hash>
+        <hash alg="SHA-384">a3e5dd00dac69e7c2b57fe1e3d3feed32d9b5b2ff29b22ab56467f0660fa8797082a3f22e91b3e1be5a916be738d667c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.13.1?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-modules-java8/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-modules-java8</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.datatype</group>
+      <name>jackson-datatype-jsr310</name>
+      <version>2.13.1</version>
+      <description>Add-on module to support JSR-310 (Java 8 Date &amp; Time API) data types.</description>
+      <hashes>
+        <hash alg="MD5">830d1ba0b25d43b47c31fbef50d57cf7</hash>
+        <hash alg="SHA-1">1ece5a87b59701328215e0083448b4d451857cbd</hash>
+        <hash alg="SHA-256">0219a9a4c1b983031111dc87e6edc8d1c6b5997581ac2ac20c4ffe6509adb605</hash>
+        <hash alg="SHA-512">038084e6e49de484f80a832cacefc39c41fa03b49c221f158da636c14149f2161eec55a61db4e37b6940e4dddb393ae4eee38b7d19ec445bedefddb96ab77a4d</hash>
+        <hash alg="SHA-384">7eaf7608b12c74562b436b52b2bb6805602ad6dfdc4b7121338a435e2499f6287989931d810d784db592b3e44dda0407</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.1?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-modules-java8/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-modules-java8</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.1?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.module</group>
+      <name>jackson-module-parameter-names</name>
+      <version>2.13.1</version>
+      <description>Add-on module for Jackson (http://jackson.codehaus.org) to support
+introspection of method/constructor parameter names, without having to add explicit property name annotation.</description>
+      <hashes>
+        <hash alg="MD5">e230a12069ffd5d378d5ac130f5fc561</hash>
+        <hash alg="SHA-1">cbeec2259213c555ef451a2e05f35ed1dbfbf799</hash>
+        <hash alg="SHA-256">6deafd562297685e748cdb44ceef0d8853eec30859b18c7f7021747b44be5e67</hash>
+        <hash alg="SHA-512">5e06750f0d7d51cd1efcf95ca69c846e14edf5c91d4aa49b2b4146ef3f8360b8952059a3c5c4bbc64f3c5f16809af1724e887aeee9491ed89148c9e93f61158f</hash>
+        <hash alg="SHA-384">d421d45699a441c7feeed46c84d936f4ef3ae6a5d7581f0d1398f1fe3e30e17338d2ccbedae7e48f90e79a53b0041a38</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.1?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-modules-java8/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-modules-java8</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-web@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-web</name>
+      <version>5.3.16</version>
+      <description>Spring Web</description>
+      <hashes>
+        <hash alg="MD5">1f9097628e29cc5afa7aa11363ddac1f</hash>
+        <hash alg="SHA-1">224ae9b45e138034980a423e2f85d7bd63539a49</hash>
+        <hash alg="SHA-256">ca4ae4e7ac6829a0b316bdc287a3679653aa463188832f222a88961bc2be461d</hash>
+        <hash alg="SHA-512">97e623e9c612626392aa17c5a37d60b1d3440c77cf308a9a383ec4cce341d5c7a3300fa4485b3b1dac4297ebe247b4da210c0c6a0e0c8a35423d7f7056e66404</hash>
+        <hash alg="SHA-384">88789bc54b8bc36edde16792b5243bc37196845100230251292dcc226111c2512f1906ebec13e3d32fbb7bc672d25ce0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-web@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-beans@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-beans</name>
+      <version>5.3.16</version>
+      <description>Spring Beans</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d73d7e9a302bd172fc26f66444a69844</hash>
+        <hash alg="SHA-1">15decec5cea7a91423272daaae6f5d050c23cf3b</hash>
+        <hash alg="SHA-256">076ea48d2291a5d062f135edada9560f149d9270b63a12541c140f14f92bed35</hash>
+        <hash alg="SHA-512">f6d0f02e9391c8b1f29f59b6688c3ecd4cf220838649db022e0f52216635e8f4cf26b1cf913a476704ab00dffdba6633a9345842a24210908959ff45d0763eef</hash>
+        <hash alg="SHA-384">e537825bce075dbc8ecbaaf4f467c8d9886980fe41993195b4487054087e83a963f1d97760a97e9919d4581582fe912c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-beans@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-webmvc@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-webmvc</name>
+      <version>5.3.16</version>
+      <description>Spring Web MVC</description>
+      <hashes>
+        <hash alg="MD5">758e05e3827039a7fb14c93a16a5f39b</hash>
+        <hash alg="SHA-1">18e0d7a9cf1c43b100296f86f61b58821dd1e6b9</hash>
+        <hash alg="SHA-256">197620fa85ba4eb8881efadafaa3ff93934597b28eee2904870a4aa72eb044ba</hash>
+        <hash alg="SHA-512">d9bcf74a520adf86e0fb48d2f87a55888b99f48b9b1c38df2cac96489d2d1ada9603fa72c1bb1c298b31a86120b9d0bba4415bb759d8aa131f08f0f20425ac46</hash>
+        <hash alg="SHA-384">d0520d751ea092a0bf12c43e7bc9cb457ab2af2335036f3a6d97568f1b7fa4313f1bf1f66744baf88f543264152b8f48</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-webmvc@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-aop@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-aop</name>
+      <version>5.3.16</version>
+      <description>Spring AOP</description>
+      <hashes>
+        <hash alg="MD5">29e4dddd42d6f2144ab3c457e2a4f15c</hash>
+        <hash alg="SHA-1">d61c0545e0395de608be52db1cccb60ba841a26b</hash>
+        <hash alg="SHA-256">65915576aa2befc79ff9b18989469abbd8eb5461a92b6ea34cddae236a7d8159</hash>
+        <hash alg="SHA-512">1add3a9270e7ee8fbdc198699056e618eb48c1357b2c3818243c0bcc20335cd9b6f0afa7c01fc1e7194436e308c29f33cf0dbe0c6c28430029f5c02993143e1b</hash>
+        <hash alg="SHA-384">a9743662837cea22ae7791381961c5bcbe161786a0441b6bcb6207edf9122d8178ecd19b3aeea12d1968aa1bb579ad7c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-aop@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-context@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-context</name>
+      <version>5.3.16</version>
+      <description>Spring Context</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e019eb8f587e07a43f5522aa48a2fb8f</hash>
+        <hash alg="SHA-1">efb9c749b335bf62dc07c1674e9d76d382a027e5</hash>
+        <hash alg="SHA-256">97bdbaca7543ba4c27c7ce0ea8f9fe736e0e8ab12e7231191c31fa59210cf063</hash>
+        <hash alg="SHA-512">1c09db36380facb4fe11dbe3bec3f85e5b470cd1ae10f1ad7746d967155c483c0c532a859653d269349aa09c41aa2bb150ec66804cba02a6d764014e43948f66</hash>
+        <hash alg="SHA-384">0332958b8c5c5de4972bb9e169bb054b99d3da7bb56b3e0a0a9f22a1a46ac7cb8cbcf55d6c7622b45761bbf5d72bacac</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-context@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-expression@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-expression</name>
+      <version>5.3.16</version>
+      <description>Spring Expression Language (SpEL)</description>
+      <hashes>
+        <hash alg="MD5">9e2887b0456d3c1de3464a7013533a28</hash>
+        <hash alg="SHA-1">831a17ce70686c571f3c05c4bcfb81012c5814df</hash>
+        <hash alg="SHA-256">fde96a9c8ceb6f573067b658b74e3a6e61cf14bff40c414482ac93a54b35d037</hash>
+        <hash alg="SHA-512">743872002079bca3bddfd1129049cbd4982087d8abded3fa9af2c4e07b00cea7c465089afcbe217c1136bddac69054a7f46e4a2b18123827781e63d090fd449e</hash>
+        <hash alg="SHA-384">a82b47d882458f2dcff88c55cfe4c642f08897a1f6c9b23b7a161a9afb9904af33103e0e6d1352d462598f9cc4243087</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-expression@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter-undertow@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter-undertow</name>
+      <version>2.6.4</version>
+      <description>Starter for using Undertow as the embedded servlet container. An alternative to spring-boot-starter-tomcat</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">22e4dff9b44e7500494c1755fdad2efc</hash>
+        <hash alg="SHA-1">e0064282a3514ada7440c7cc8c4321a2b92178ef</hash>
+        <hash alg="SHA-256">f3ce9d126883aac04c147a3cd99fa67d148eb85704c7d5a36279a0cb5dac3855</hash>
+        <hash alg="SHA-512">27c02d3a48395d2a1f56fc8414751c31d1a3dfb03462c9cf9cf0467fe9855d82a3f1c159c355e87313f6ac6b9f1c4ca9e606b506d0a494c3d635aa9e810a9a7b</hash>
+        <hash alg="SHA-384">b803aa193c19be670133ffe40a1c4764fb7adbdc0a2511b7a04adb763dac6670d3a5f0d7a9a1ff48113879443fb5102c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter-undertow@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.undertow/undertow-core@2.2.16.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>io.undertow</group>
+      <name>undertow-core</name>
+      <version>2.2.16.Final</version>
+      <description>Undertow</description>
+      <hashes>
+        <hash alg="MD5">f17fc27c688dd495948bd315c10843ff</hash>
+        <hash alg="SHA-1">83632a63bfcf66f3abfc5b6c92facccfe6b98b7e</hash>
+        <hash alg="SHA-256">29b66357b8e35bf386446b30fab54c816873aea9a305e70bf7bbd87cd892a06d</hash>
+        <hash alg="SHA-512">8077d7ef2750066a2e79241bafdb24e4fa912f45682cd8f98f28a7f2a412f1d0e554538b0c511e5bc24e5735170d705e9a6e8084164d62f03c738de8ddf3d4a6</hash>
+        <hash alg="SHA-384">dc5abefd48c2480f315b8df09f8b5e16bed4019a113c576b684ecd40789a2a2445c9b15677c523655ec3a09f8f3cb76e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.undertow/undertow-core@2.2.16.Final?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/undertow-io/undertow</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.jboss.logging</group>
+      <name>jboss-logging</name>
+      <version>3.4.3.Final</version>
+      <description>The JBoss Logging Framework</description>
+      <hashes>
+        <hash alg="MD5">b298d4b79e591843c1eb1458ea79f070</hash>
+        <hash alg="SHA-1">c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea</hash>
+        <hash alg="SHA-256">0b324cca4d550060e51e70cc0045a6cce62f264278ec1f5082aafeb670fcac49</hash>
+        <hash alg="SHA-512">60759c4340a7c1af0f10a5c2252e028150413d2437547f42018a94a838dc4a2bb24256411490a7e5f109b76305e2752ecf37def85e631d7e7b7e8461e0b54dda</hash>
+        <hash alg="SHA-384">1c07afd380f25c076ca0e568be205ede18c875471547133711f04bb2ffc9936c7c97708605cca18c9a98fc94b072caea</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/jboss-logging/jboss-logging</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.redhat.com/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jboss.xnio/xnio-api@3.8.6.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.jboss.xnio</group>
+      <name>xnio-api</name>
+      <version>3.8.6.Final</version>
+      <description>The API JAR of the XNIO project</description>
+      <hashes>
+        <hash alg="MD5">9931d762f6637329bff076f7cce957c3</hash>
+        <hash alg="SHA-1">68052c0d04b051653b59110ddfd49fc8597243b1</hash>
+        <hash alg="SHA-256">3dafd120f2ac4127f930059a5b63d25d9b26b2aadf2c5add1e4c39fa3961e8ca</hash>
+        <hash alg="SHA-512">2d6414b56e25c7e1308d552f71f62dc203c491a982fbcb407ab8253a29b9e90ba88f449bc0a1042497f2997569d2c2a6b1171b4cc519387a5e7aa52f10730e5d</hash>
+        <hash alg="SHA-384">e7fcc6643bbe81aa93b0586609beb2716a3d6570151d669e05303af2746d7dec077f72e55da4370cfaabdca4c7677a04</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jboss.xnio/xnio-api@3.8.6.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.redhat.com/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.wildfly.common/wildfly-common@1.5.4.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.wildfly.common</group>
+      <name>wildfly-common</name>
+      <version>1.5.4.Final</version>
+      <description>Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs</description>
+      <hashes>
+        <hash alg="MD5">56d909f0e3f28084ae38c7604bf23192</hash>
+        <hash alg="SHA-1">735ceee5616d5143bac1bc740e444697073c002f</hash>
+        <hash alg="SHA-256">9fda3caf8bd528dec56ebc70daf78f5a9ff5d0bfcea8b3e41ab7ae838747e46a</hash>
+        <hash alg="SHA-512">69c5aec2c4748038b81ee7f72ed48b64325a82ff754dabefb2c389cbc50246cc6183cd0033a08d6261aaeb521be91ca48a7c95d03a2ff2103608862d0bf7b732</hash>
+        <hash alg="SHA-384">6170f65967fb2a127116565565bbb753804ed334bf2b9eed7ac7324f6fdcc2d2506e4b3027a895f1ba688b475e2f082d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.wildfly.common/wildfly-common@1.5.4.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.wildfly.client</group>
+      <name>wildfly-client-config</name>
+      <version>1.0.1.Final</version>
+      <description>Library for supporting WildFly common client configuration</description>
+      <hashes>
+        <hash alg="MD5">77f13d40c0fc70d05b48d43ac8ae2581</hash>
+        <hash alg="SHA-1">2a803b23c40a0de0f03a90d1fd3755747bc05f4b</hash>
+        <hash alg="SHA-256">80a4e963ce94ebb043ecb0f2c0e77d327f23dc87d81350b863752eedfa2c3bb3</hash>
+        <hash alg="SHA-512">3f442478c57f7dfac7039f6c7ae014bb2d45cdbd690ee631a3349edbca414adfe1984d065d1439f9b1546fa15fbd032c3a6bfe008f1ad50eef74201467b9f55f</hash>
+        <hash alg="SHA-384">fd6285cf6398f0395c538873c4e52292c467d5f752f47fb8040224b37ec4e39e410136bf040c33ba8b42b3d6cda58a05</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jboss.xnio/xnio-nio@3.8.6.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.jboss.xnio</group>
+      <name>xnio-nio</name>
+      <version>3.8.6.Final</version>
+      <description>The NIO implementation of the XNIO project</description>
+      <hashes>
+        <hash alg="MD5">8af16bbea862ddabcf34fb53347f61c9</hash>
+        <hash alg="SHA-1">5b13dd672834c8b16b1421b9b7f0a8ce9b9f4794</hash>
+        <hash alg="SHA-256">6afb7091c3ec1a85ff63d4b7fa781d242c5fb1c8073f5c472f2c55ec05baa86b</hash>
+        <hash alg="SHA-512">51694750085dd3db9245a1d17fb13f13c623933d0476d7252c8f9a08fc5baf2a27983b09cf0c47da001a3d499584f7473bbfa5de5679f0912059e4f20dcac0c2</hash>
+        <hash alg="SHA-384">46c7717b11e4c9e8f7de601d33cbf34ff5a2721cd23e9eb7774a9b90d3b4a99a88e582e74385645d316980b0239b7366</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jboss.xnio/xnio-nio@3.8.6.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.redhat.com/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jboss.threads/jboss-threads@3.1.0.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>org.jboss.threads</group>
+      <name>jboss-threads</name>
+      <version>3.1.0.Final</version>
+      <description>Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs</description>
+      <hashes>
+        <hash alg="MD5">aa2e05c76a355ae521595ce39cb5776c</hash>
+        <hash alg="SHA-1">9b260c0302f637a84a52d3d118214a3c59217615</hash>
+        <hash alg="SHA-256">c9396af3b47ddddbce14335aaad5b85b49fa704f11e33da1c450fae3c3b98079</hash>
+        <hash alg="SHA-512">12d2b4c6c4f732a4b9437ae6e893087981aa2d829c9bad7089cd4cb10bccd7105e136f694e43a36e5bf234ca81294117fd9f6a07795f77c0f80d8f748c8fa529</hash>
+        <hash alg="SHA-384">faa1ae7a2e28a3b25502475d23b5dc31c25325f3b900a8aaef5109e43c3acdf77fd6ba5b899a921e044ae2fca1079d93</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jboss.threads/jboss-threads@3.1.0.Final?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.jboss.org/browse/JBTHR</url></reference><reference type="vcs"><url>https://github.com/jbossas/jboss-threads</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.undertow/undertow-servlet@2.2.16.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>io.undertow</group>
+      <name>undertow-servlet</name>
+      <version>2.2.16.Final</version>
+      <description>Undertow</description>
+      <hashes>
+        <hash alg="MD5">ececd38ecf793633069cdb0e6c7197ea</hash>
+        <hash alg="SHA-1">253ebb2cf0df5c9068dc3adbdcc7a2d1fb6b37fe</hash>
+        <hash alg="SHA-256">416e94014b3e2de1b75e432dadcd41960ad5d3698a5e5e615f2d0bd3de5a9202</hash>
+        <hash alg="SHA-512">d4b210a6e596154df8e47c702734aee439b6c9e1205463ec2f15e3e0371f9693ccadc11aff1f8aa8d132a9d9984aaf4635181d2f240b9f0f6f5a39e7c4580cef</hash>
+        <hash alg="SHA-384">a728c1a0409053c14a9d4587a58a9ac2f67c14004b14651a7d9929b2c9c9c8be18e0ab88c604e05fa6463c39e5bd50e1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.undertow/undertow-servlet@2.2.16.Final?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/undertow-io/undertow</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.undertow/undertow-websockets-jsr@2.2.16.Final?type=jar">
+      <publisher>JBoss by Red Hat</publisher>
+      <group>io.undertow</group>
+      <name>undertow-websockets-jsr</name>
+      <version>2.2.16.Final</version>
+      <description>Undertow</description>
+      <hashes>
+        <hash alg="MD5">8d3eb332ecbc72550f92ee20b36535e2</hash>
+        <hash alg="SHA-1">0a747e737257527fc2c85ba9adad58887671e058</hash>
+        <hash alg="SHA-256">9ddaec871daf592ab0d1b5810aad44056d3de5f28a3038b64123ab05ea575a3b</hash>
+        <hash alg="SHA-512">9e1bfa523564467e3f3e869c9895df6c7028dbbf698e9f906d56e41d90b228daa018de8cff03b0efb9379026d2f1b36d3d6c3d485b4ec2e5564656447aad19a4</hash>
+        <hash alg="SHA-384">97bddd6d6bd3870f7054e6c758f8aa5305197062af93af4ecf9d84b6af9f83daca42c98d48088f90384d0c633c1000ce</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.undertow/undertow-websockets-jsr@2.2.16.Final?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/undertow-io/undertow</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.servlet</group>
+      <name>jakarta.servlet-api</name>
+      <version>4.0.4</version>
+      <description>Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs,
+        implementations of those APIs, and technology compatibility kits for Java runtimes
+        that enable development, deployment, and management of server-side and cloud-native applications.</description>
+      <hashes>
+        <hash alg="MD5">f5d1d7a29978e4ae0be5a456ee1c65c3</hash>
+        <hash alg="SHA-1">b8a1142e04838fe54194049c6e7a18dae8f9b960</hash>
+        <hash alg="SHA-256">586e27706c21258f5882f43be06904f49b02db9ac54e345d393fe4a32494d127</hash>
+        <hash alg="SHA-512">1ce4a059fda9a1c7ab751afb13ec05446d756ac418dd95f8ced369b04f6928a76cf50003f89b1b86d96bcb1df8b8f7ff31c516b5287155eea93f683f73d54ab1</hash>
+        <hash alg="SHA-384">ca7e8d9c88f5ae9f193baa15da96d0c8ab48f34758503ded8058f343547c29f215f2d0db1967090ea984b643dcf0fbb6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/servlet-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/servlet-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/servlet-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.websocket/jakarta.websocket-api@1.1.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.websocket</group>
+      <name>jakarta.websocket-api</name>
+      <version>1.1.2</version>
+      <description>Jakarta WebSocket - Server API</description>
+      <hashes>
+        <hash alg="MD5">60cc2e06d3a1e5ea820f8aed5cdb1728</hash>
+        <hash alg="SHA-1">69c2fdfb75081cc935bc9d6c5616d12b0b73815f</hash>
+        <hash alg="SHA-256">e2f4e99e04130a29fc8e57e334fa029e96e2ca6672ba0166585c59d19798904c</hash>
+        <hash alg="SHA-512">d0ab6ed302b1a93d0d8933fc726207429492ebfcd25db762cd17545790e63f34415423d76ee1237c9a688b8506cd40e5b604a8915c67088c189b382472ae6124</hash>
+        <hash alg="SHA-384">e573923eea8cb539050c68284dfe53f150d404c58072c6652d635a307bfa8dc8a5a072a22c655f3fd78a775953deae7b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+          <url>https://www.eclipse.org/legal/epl-2.0</url>
+        </license>
+        <license>
+          <name>GNU General Public License, version 2 with the GNU Classpath Exception</name>
+          <url>https://projects.eclipse.org/license/secondary-gpl-2.0-cp</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.websocket/jakarta.websocket-api@1.1.2?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/eclipse-ee4j/websocket-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/ee4j/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.58?type=jar">
+      <group>org.apache.tomcat.embed</group>
+      <name>tomcat-embed-el</name>
+      <version>9.0.58</version>
+      <description>Core Tomcat implementation</description>
+      <hashes>
+        <hash alg="MD5">54f1a4dd2368e2a728d61212f1b8c0e2</hash>
+        <hash alg="SHA-1">a82095439a98c29b3d7eb136e76e0283bf3f005f</hash>
+        <hash alg="SHA-256">56949d93f11acf59a56d9fc886cbb008d4466cb66531f36be64bcba52b26305e</hash>
+        <hash alg="SHA-512">4099e49b2cef9091389d035cc6daddd6a28af1ca9653a9438c2fe8b17d76cee3b8018e4013029b95977c20d2509d36220e867bbd1f0d2e06f0c5f5c6591d9c0e</hash>
+        <hash alg="SHA-384">d694268733987b064c836fc71d3927ed855ea5ffdf11c05688d8a4cc6db5e0995f107e5351437593bcdcd1e1edcb4d25</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.58?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-starter-actuator</name>
+      <version>2.6.4</version>
+      <description>Starter for using Spring Boot's Actuator which provides production ready features to help you monitor and manage your application</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">44be5471389d92a69bd73ffc3ed827db</hash>
+        <hash alg="SHA-1">c3962eaf56d6a4bf84cb1b232f70224b53dc5455</hash>
+        <hash alg="SHA-256">196c9ac9f0c4fa36fd0c8b3a722dc6d4114a2289e581d8dc16c1384e5276ad7f</hash>
+        <hash alg="SHA-512">570814d90ee0718bb59018bfbb9f30df4e99f70f9f365251d8c9677358f7fc2acd4686ba7ae78ad6ef1f03abc256ac2d2151b21a583f3a1c2279e2fea82eb563</hash>
+        <hash alg="SHA-384">3ca5cc397064b059b48c9a94b97595fc3518f58172803b611767007ae17adb8e7467b67b1375db3ddb17e193a47223be</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-actuator-autoconfigure</name>
+      <version>2.6.4</version>
+      <description>Spring Boot Actuator AutoConfigure</description>
+      <hashes>
+        <hash alg="MD5">6255d229f261d9430ed352cae0912925</hash>
+        <hash alg="SHA-1">9e29af9e11f5f7fbdab2f3a21b7b104d63e3098e</hash>
+        <hash alg="SHA-256">9039a9a1cccdede26a98d0bb48c2a8a6e319299438a161efe408eeb922dbb165</hash>
+        <hash alg="SHA-512">2235b8a4991a71d40671106a965c4959098fcc9e50d771c9b9331e10f112db35880d063d731dd9699378ac0516fa1814835fdf2ec721a11fea580e78aa8cc9e6</hash>
+        <hash alg="SHA-384">76670d14487598cf61bd3a34a5821b2b9a4f8f6679f4d389d44459544cee0eb6f38a28fdd96165455178a5804872913f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.boot/spring-boot-actuator@2.6.4?type=jar">
+      <publisher>Pivotal Software, Inc.</publisher>
+      <group>org.springframework.boot</group>
+      <name>spring-boot-actuator</name>
+      <version>2.6.4</version>
+      <description>Spring Boot Actuator</description>
+      <hashes>
+        <hash alg="MD5">f72642627391c52c533c060dcc331958</hash>
+        <hash alg="SHA-1">944f659a209043efb9979f1a19163ba5c343e4ea</hash>
+        <hash alg="SHA-256">f8448e1b06b691bae7dec5ff97a1df7cd25f6c8d7940f5b33fe4db887da01db0</hash>
+        <hash alg="SHA-512">2868974880d44b2c8d035854c794c0aaa20485e230adc68c9da49c7d2d2238c91bb580bef9ac9a75e4cebf679a14a9339edb227cb7b37363881ebb5d889ef4e7</hash>
+        <hash alg="SHA-384">d75849d79430527f06c3ae04ae61658c7d47c3d5d3b8c4cf31e6de298f472ee697a3796a203bc1a647c5cb4644441b14</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.boot/spring-boot-actuator@2.6.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-boot/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-boot</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.micrometer/micrometer-core@1.8.3?type=jar">
+      <group>io.micrometer</group>
+      <name>micrometer-core</name>
+      <version>1.8.3</version>
+      <description>Application monitoring instrumentation facade</description>
+      <hashes>
+        <hash alg="MD5">765f2e52eda8f0c91214697ce9efab25</hash>
+        <hash alg="SHA-1">d5f34a39442fb77773d0e4d814d1f6b1b8737b49</hash>
+        <hash alg="SHA-256">f6851545fea2169dd22f9559d6093176c968e17dd9c4effcab71c0aa4d5b6614</hash>
+        <hash alg="SHA-512">727675eed7a667c9c417e8e8ca06b93aedf9db88b20086044120783e943775faa39d64bf7ae55fa188a6ece610803ebd9018ba236cbce2e6b64177dffb8b1e01</hash>
+        <hash alg="SHA-384">936d67f2e7055a0fb3d2d2317ef85e24c836eb6027ed00cee0bb934a778c46eb1c28f2bfd887572166cce1900b55a918</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.micrometer/micrometer-core@1.8.3?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?type=jar">
+      <group>org.hdrhistogram</group>
+      <name>HdrHistogram</name>
+      <version>2.1.12</version>
+      <description>HdrHistogram supports the recording and analyzing sampled data value
+        counts across a configurable integer value range with configurable value
+        precision within the range. Value precision is expressed as the number of
+        significant digits in the value recording, and provides control over value
+        quantization behavior across the value range and the subsequent value
+        resolution at any given level.</description>
+      <hashes>
+        <hash alg="MD5">4b1acf3448b750cb485da7e37384fcd8</hash>
+        <hash alg="SHA-1">6eb7552156e0d517ae80cc2247be1427c8d90452</hash>
+        <hash alg="SHA-256">9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2</hash>
+        <hash alg="SHA-512">b03b7270eb7962c88324858f94313adb3a53876f1e11568a78a5b7e00a9419e4d7ab8774747427bff6974b971b6dfc47a127fca11cb30eaf7d83b716e09b1a0d</hash>
+        <hash alg="SHA-384">06977d680dafd803d32441994474e598384a584411a67c95ab4a64698c9e4cbd613e0119b54685cea275b507a0a6f362</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>CC0-1.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+          <url>https://opensource.org/licenses/BSD-2-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.hdrhistogram/HdrHistogram@2.1.12?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/HdrHistogram/HdrHistogram/issues</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.latencyutils/LatencyUtils@2.0.3?type=jar">
+      <group>org.latencyutils</group>
+      <name>LatencyUtils</name>
+      <version>2.0.3</version>
+      <description>LatencyUtils is a package that provides latency recording and reporting utilities.</description>
+      <hashes>
+        <hash alg="MD5">2ad12e1ef7614cecfb0483fa9ac6da73</hash>
+        <hash alg="SHA-1">769c0b82cb2421c8256300e907298a9410a2a3d3</hash>
+        <hash alg="SHA-256">a32a9ffa06b2f4e01c5360f8f9df7bc5d9454a5d373cd8f361347fa5a57165ec</hash>
+        <hash alg="SHA-512">bb81a42498c65389366205f4e07cee336920e2f05cc0daae213f2784b1d0ce9a908b038daec20478f23eb00b2bf704f96c5b00f63c99615193ab2a3cc4a9f890</hash>
+        <hash alg="SHA-384">16ca4640dc9d848e6c6d15441897e1b5a9f27f34207b0bb456dd54d8f267b73b348092e548e78634144de44ba3515205</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>CC0-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.latencyutils/LatencyUtils@2.0.3?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/LatencyUtils/LatencyUtils/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-spring-boot-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel :: Spring Boot</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">28685e78e5bc2c002803968528f12042</hash>
+        <hash alg="SHA-1">ea4c399c4cacf80a5856c406041dbe2c5516c066</hash>
+        <hash alg="SHA-256">eb17eaa851818c3a79da8b135cd025f72d23e87a683dff714cb98b995b0c1618</hash>
+        <hash alg="SHA-512">212ba998aab5b229eb6d2a45300bb0ae2aff2cea72407062b31a256368765663334c3492ec94a145da319a6f55e1ac4921d173fb4a78945f39da9bbd667d82da</hash>
+        <hash alg="SHA-384">0bf58d6380cd43e98b360171135970e2aa0ef2a133228f1d52ffd2a375d483c8af2071ba2a1a1f15897a89d2fd33f9b8</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-spring-boot</name>
+      <version>3.14.2</version>
+      <description>Using Camel with Spring Boot</description>
+      <hashes>
+        <hash alg="MD5">a0ac2f8dadb28efa6908b4c267420efb</hash>
+        <hash alg="SHA-1">a1af64e58b19a668a1b88f3b28fd66a646e15e53</hash>
+        <hash alg="SHA-256">c316fd01ce0661cf2798052f8d2534a50e2fa1c4bf30aa395f5eea7ceb0edcbd</hash>
+        <hash alg="SHA-512">b9b5bec56cf2191717b14dfe587ece98402fca569afb8839b43429ee303e9c1a1d6483f36de80f08e752ed5c29d1f1b9af61febd2cde5cf13211cfe887e98c24</hash>
+        <hash alg="SHA-384">cac1e960264182b2176b4c3ffe08f368b5a2101826e7e7496864a63219eea87cda257456ff6623b47a91925ab8869e5c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-spring</name>
+      <version>3.14.2</version>
+      <description>Camel Spring</description>
+      <hashes>
+        <hash alg="MD5">9b75459ae66841962521896760f11043</hash>
+        <hash alg="SHA-1">9eb27a266d15acba2919a185f76312e4c9aad8ee</hash>
+        <hash alg="SHA-256">4d12d214cd9f41dcd6a9868ff20150b849f58aa7578ec2b68f32888b4c1d228c</hash>
+        <hash alg="SHA-512">383316e738629a371ed469ff4fe95722d5d4c35fc60e75993e3264875b4328906a91aa318b59b42eaf9430db7fd552c17d32c739ba3972cba46e865ab5ab89e0</hash>
+        <hash alg="SHA-384">fecf38ca1763fb348969322a574f6b0d881ef4b7d210e662162f3d9c66d7e039bbf7109835b17eb64d87bd7364007b93</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-spring@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management-api@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-management-api</name>
+      <version>3.14.2</version>
+      <description>The Camel Management API</description>
+      <hashes>
+        <hash alg="MD5">098174678b55aef211db8dfaf1b03a38</hash>
+        <hash alg="SHA-1">7a975dc961072b40aa91e460d52f7f3cc0210131</hash>
+        <hash alg="SHA-256">476f2b1cdb5feaaea8687012f5a8bb191be74e24ff7b7526829ba26dbe6250d5</hash>
+        <hash alg="SHA-512">7524ac651fac84b5ce49a1831438489685fe8c43e0b1d86ae631548701f4335e89d0943208c1a6630a56520f3259afe63a2e3ee07a3bc89fb549368aac0c27d8</hash>
+        <hash alg="SHA-384">9e99580cf990d25c6261a35e1600f72b2a4e2fc9bb26cd7905289ccf15769b33c0cc90937b8b1a42cf2d463e4e955e6e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-management-api@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-tx@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-tx</name>
+      <version>5.3.16</version>
+      <description>Spring Transaction</description>
+      <hashes>
+        <hash alg="MD5">700c790363a78a67603041fd38527656</hash>
+        <hash alg="SHA-1">ae9be43379f2967e015ace189d47728a99f18220</hash>
+        <hash alg="SHA-256">bfc795cbe7b3e0f6d58e4a67d85a3b8187a70fcc5ca88331b08b87e1b3b279b2</hash>
+        <hash alg="SHA-512">06bd65aa413253760160f0f082bf8ab3ce56f8e751c428572feecb028bba2e23389b15531eb458a2fd1782a4a6b0b7e4ea5d37725a9a6fe5869f5716b89595aa</hash>
+        <hash alg="SHA-384">779e557e039a60942df0353ca2930ff610d003879649ecdc17c450944e00cee9067c4b78983370c49958d4d44ef2c736</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-tx@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-main@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-spring-main</name>
+      <version>3.14.2</version>
+      <description>Camel Spring Main support</description>
+      <hashes>
+        <hash alg="MD5">5782eece6eb1d3d76c8b3b2c83136b53</hash>
+        <hash alg="SHA-1">375427a58918ecd741ababeaa64c413818e60ce5</hash>
+        <hash alg="SHA-256">12519344bb01b26b51ca9d16133a9737e4a3739adbc7ba9622270a8c39a8de14</hash>
+        <hash alg="SHA-512">38d35f2dc96f3f3292313839b04ed411bd55489ba119fff23bb987a67b0578d166076ed7e5f300e4e32e26d6e23aefad979c5f3d6d63e8d7b08d22fa9dbb71a8</hash>
+        <hash alg="SHA-384">6267584dad9f19c828080a3d28b1ff725d4bee73f7f9b0836c1c26404868e56d3d426b0e6d708f9b48f45747df2c594b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-spring-main@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-main@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-main</name>
+      <version>3.14.2</version>
+      <description>Camel Main</description>
+      <hashes>
+        <hash alg="MD5">63e900cd1d7a8b05e27b5ce4cf403070</hash>
+        <hash alg="SHA-1">379026c7031c67e1d09b4faa2a51d4d275943575</hash>
+        <hash alg="SHA-256">53cbc08033fd3093bd1d33e191e9871a1b3ca1944ce40b42aa3eab7ca47c841c</hash>
+        <hash alg="SHA-512">780a00427734700428a2ebf43c8f68d92484824ae5fbaf0f8b0a080f4f14fdd4b6338ebbce075364608342d84feef84b3d3ab64250ce4f0c8c654fd0e33b4771</hash>
+        <hash alg="SHA-384">de5999064a1ec878c659a99da6e08567196f2981ce134a15b527ae73fbfbcdc28c734e64d6ef3b35f4438884d9d1c398</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-main@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-base</name>
+      <version>3.14.2</version>
+      <description>The Base Camel Framework</description>
+      <hashes>
+        <hash alg="MD5">ee0c03f11f7796a01cd77f6a3847631f</hash>
+        <hash alg="SHA-1">f384b957711c685fa5b9f1bb5dade8453af6d6e7</hash>
+        <hash alg="SHA-256">e19a4a09ce03403d7b0e13c42de9a5988872566c3464c1417f38bebad7b1a551</hash>
+        <hash alg="SHA-512">ba82ca1dd0c6d49eaf17f00c782d4929f6b78c35d27742ba5b6358c0b9fe1a8fde512014c181a1cacbd1fd25addc9acf4d1f3d7b18d74c0d6f7ee77e5429b5c7</hash>
+        <hash alg="SHA-384">88cf55375b254e2f5711be007eb0f45ff19098d0ed91d1aba0c273cb6f2a182d5d4c8be5f51146e65d52361e1e17f3da</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-base@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xml-jaxb-dsl</name>
+      <version>3.14.2</version>
+      <description>Camel XML DSL with camel-xml-jaxb</description>
+      <hashes>
+        <hash alg="MD5">ee23cd2a39dd78d13d4b81a35be3053c</hash>
+        <hash alg="SHA-1">e467749176769fe69112e5ccf0f827fdd738cd9a</hash>
+        <hash alg="SHA-256">52002bbf9432e56463493aa0fddd08a2f34cabec8705f9034582dee17b3787f9</hash>
+        <hash alg="SHA-512">73049a0ad7511bb7736b36d902ad21ba2daee3714c91e4cf365332be22fe8f62458ef5340f3b0b212d725620dd152f497c4bebc72aef13cd3d51a7cc1895d7f2</hash>
+        <hash alg="SHA-384">43d173ec587b1633856717a276bf6f01605623e38d2fca8a0c3c9517b186f79868b29715fe3bb587f98bd1e8cb568f60</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-model@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-model</name>
+      <version>3.14.2</version>
+      <description>Camel model</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">872fa624ea6dde834ffde1a3cf8cc30b</hash>
+        <hash alg="SHA-1">ab518ef08076fd86076db4d44ca6ee40ec5da3cd</hash>
+        <hash alg="SHA-256">b7de75909db110f08a8be86801d015b161222ec27a3044b849ae01c99d21b7d8</hash>
+        <hash alg="SHA-512">ff9fd1526a9cf24eb9f69e994386b5654dc7c660a79dc5c5eceb4e5eae87546cc6010a6708458f597d8007d40fd650996bcdc6cc75ce7070bcacd0047b7e8700</hash>
+        <hash alg="SHA-384">6346e16ed21ce8e3b8169ed28c197fb111be97895788dfe6cc136376e1b359aa84cc2aa95adb3d97698836652f5592a3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-model@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-processor@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-processor</name>
+      <version>3.14.2</version>
+      <description>Camel core processors</description>
+      <hashes>
+        <hash alg="MD5">d0c36a1f8dd4e13f58ab6e5679f77a71</hash>
+        <hash alg="SHA-1">7c1165dfa9b2000b394594e877469bbb9434c025</hash>
+        <hash alg="SHA-256">fe544072b2cb4b293e762004b88451771b33e8888102f6ec80a58224dc256d67</hash>
+        <hash alg="SHA-512">c791740dc71157ad53b2920918d9af5769c6bddfe8ee44973ad7e2c455b8f7a3c039aa82b26ddaf0fd74c5a28fb62cf50d96cd91422fcb135c0cd6283f0e9544</hash>
+        <hash alg="SHA-384">d8f53f2f0ec5eded79b317ec7c4a79b424ecf94f68b389a22939234229f2e3528040fa59b717a2ec3ce74a48f25009bf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-processor@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dsl-support@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-dsl-support</name>
+      <version>3.14.2</version>
+      <description>Camel DSL (Support))</description>
+      <hashes>
+        <hash alg="MD5">c0accb1101c17daf6adc1aa56e44b00b</hash>
+        <hash alg="SHA-1">a58deee7e2c083f3860c72ec008eb8b29669ba2b</hash>
+        <hash alg="SHA-256">8858973c2b09f5cf44a59580bebda32f83878a296d6fded644f0a894b87277fb</hash>
+        <hash alg="SHA-512">15d1f0841031602ff8241ee3ff4293e51e7750d1281e497d8a2c1eaead9b52decea98b941cbf3f2d6d3426177f6c446a593b39c79ae72c6423b9e4a8ca4d15ff</hash>
+        <hash alg="SHA-384">24330ff5124c81d787e8b28c1c5b32c51b5ce1a8a4ec7459295cdb9883c59414726c40aaff258c5f24213f416360601b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-dsl-support@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-endpointdsl@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-endpointdsl</name>
+      <version>3.14.2</version>
+      <description>The Camel Endpoint DSL</description>
+      <hashes>
+        <hash alg="MD5">3d93501ca435c480ad911704d4885494</hash>
+        <hash alg="SHA-1">bb73daa2fce37b77d2c0c98bc8527ef6ddf972c9</hash>
+        <hash alg="SHA-256">c2e79b9f3ce76fe32a5f8f0a2a224f6c0f28a50e0a5c2ea241d39f5e5373d900</hash>
+        <hash alg="SHA-512">09c5f00a93ffb0791dc2fdcd0942237023c5ab667476bdde41a3157034f7149d9563f261570e238d52c36d0d060eac3e5f32cd0ab96b1f421dc433e4496842ad</hash>
+        <hash alg="SHA-384">d79081506b95547c2382fb6f068249a2c24c72c575837dcf698039ad5e3b41a112620fef3c4dbc6e4ce2f349b81ec7da</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-endpointdsl@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cloud@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-cloud</name>
+      <version>3.14.2</version>
+      <description>Camel Cloud support</description>
+      <hashes>
+        <hash alg="MD5">d258949852838b35bc1b70b2bc0af04d</hash>
+        <hash alg="SHA-1">1965d483c8dd3202e9b5c99fb310655515dcfc57</hash>
+        <hash alg="SHA-256">647ac924f7e6d1b273bae4cac2cd22bf3b4471b158616dac3f52639e5ac14ea4</hash>
+        <hash alg="SHA-512">634e77cfce2e2992fa2ff725cabb047a4e02ed5f0ceedf6fd5d9491bf590bfca44a253594c0037873f0d32f65a61b26e83adca65800776a80ee851320059ace6</hash>
+        <hash alg="SHA-384">c81aacb1e0a94705db0cd4dc4022d3f1fe069ad5bb4f89b3d118143296382929aea1cf793e0f232719a4cf62a48c598a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-cloud@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cluster@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-cluster</name>
+      <version>3.14.2</version>
+      <description>Camel Cluster Support</description>
+      <hashes>
+        <hash alg="MD5">ccb4c0aa77c995564ce112b8a007a9a0</hash>
+        <hash alg="SHA-1">3f2d35d4df8131ac0649a194d69c7bb860b604f4</hash>
+        <hash alg="SHA-256">5b32101d19cf13105682e0733965f8acc2f191bf9f6a094e943bb3c109064b05</hash>
+        <hash alg="SHA-512">e7a0bd2e18c1df2334d3b38b65582258401658652af96fbc4dbc174103507b0c28e88eb4f8b6a4152b1654841e75bb592a99edae7cc91de631c39f481717e2a5</hash>
+        <hash alg="SHA-384">1a7f74b49451e8b7f2fbcb4b4ce3b72bea93541ab936a6d3de8d90a1d74aeed506919a66942b55cb15a0adc9f7c83384</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-cluster@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base-engine@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-base-engine</name>
+      <version>3.14.2</version>
+      <description>The Base Engine Camel Framework</description>
+      <hashes>
+        <hash alg="MD5">cb924700c740baa7b153633aa702459c</hash>
+        <hash alg="SHA-1">8aa1aabbc93dd7ae3dd4864594bace2a92ff504d</hash>
+        <hash alg="SHA-256">161d724fcbbfdfa973fe4e45505676d5f98fee841504814a2cfe8999a1a16c9b</hash>
+        <hash alg="SHA-512">8d357ac5ab2c55e3382ff11dae7795861f1521e56c7f405a5987feb7168187bcdd7611cec2ccfd61be49cbffb54ca8e8fe57d6efa365873abe8f5a032aef463a</hash>
+        <hash alg="SHA-384">9859f456d7a83b461234155c89d1fff74e1e76c9729d4d22348b64f5f2cb46407d34d38e4c9bc7e861c55f83491eeafb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-base-engine@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-health@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-health</name>
+      <version>3.14.2</version>
+      <description>Camel Health Support</description>
+      <hashes>
+        <hash alg="MD5">48c9abb890016cf07a3c0d62254dffd7</hash>
+        <hash alg="SHA-1">f234fd31642461cb904ea0ff41caf9bf2d15605e</hash>
+        <hash alg="SHA-256">2f3c202db555d191a9a53f6397d4a6bc45cd01a99987230b3838b4060a496596</hash>
+        <hash alg="SHA-512">bd0393062d885bad6f95868dd0e395683daa69cddfbee5c111536b93ec61ced75d4ddf03274aafb6be0e4abc7064a6d45865bb50f9e00dc92a0ebaf2647ec7fc</hash>
+        <hash alg="SHA-384">68f380b1d51d00614f2168a101ce1255de8e5551bd2479a94ed69eccce2f409d623b313e2bea2db74bf12a8f52d37761</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-health@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-core-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-core-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for The Core Camel Java DSL based router</description>
+      <hashes>
+        <hash alg="MD5">f8d9d4ab22d9e7362d82991d9b27d633</hash>
+        <hash alg="SHA-1">a776ad6eaff6b3b10c4b199c40b30918e4d734d5</hash>
+        <hash alg="SHA-256">1a576b57e7100285ca93efefb35c337b5b4ee6639056e73e23079813fd4521d2</hash>
+        <hash alg="SHA-512">e4b186eaaef019dadbb99140a9166e449408efa105311ea7465f3cf9ff7a3625c780445f8167617923ca17c997515f954e6aae9baa66db84b72a7ea1fc8f5563</hash>
+        <hash alg="SHA-384">e47f44deff470bc562534375539911479e5125410b607b883162ff338dd66ea32583d9613aebe8d85c9efb2037a8653a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-core-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-engine@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-engine</name>
+      <version>3.14.2</version>
+      <description>Just the Camel Core engine without any core components</description>
+      <hashes>
+        <hash alg="MD5">54da1547f3b2c12e5488b11f9f1b8be4</hash>
+        <hash alg="SHA-1">ea728291e6cd1b889cc1f788a5be5a9878dc6dbf</hash>
+        <hash alg="SHA-256">6d87077ec67a1e853124cf391309cf4fe98e251d0f4a4bc16926c2059a793c9a</hash>
+        <hash alg="SHA-512">9255d68473ca36c5ca42b00633744582daa68e7bdb3537e8207364f82c25c39b21f8aa36a646cc806a2462eebc5efc4d89573aa93bdf1eb8b36bf8b56eea6555</hash>
+        <hash alg="SHA-384">fe0446d09a3131518aa9d6e2b0ce590f9627b8b4d36478f38bd68b29a485c89e6be774132cbb34bd6ad90778ac853b6c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-engine@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-api</name>
+      <version>3.14.2</version>
+      <description>The Camel API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">77f99288d2cb850687091725737480b9</hash>
+        <hash alg="SHA-1">6e4b84105155422c8cc624cf25c0e2d79c732cfb</hash>
+        <hash alg="SHA-256">c306440bd1fd661fef10e9697be5ba9b4f496ea35636ac30ce131f309791eae3</hash>
+        <hash alg="SHA-512">436be65935cd891aa58b00cb7a758fc157ba2a2121598819546ee461c2d966f6e9553a99714675ef0a6f4a603755cb601e8dbd5ad5256eb5ada4e4d9bf8c831e</hash>
+        <hash alg="SHA-384">ff66dee6c5e0df019d573370362e98f3a66d4d719c2c80f37c300ff463ef03da4fc68d6820903c45c693f4600160598f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-api@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-reifier@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-reifier</name>
+      <version>3.14.2</version>
+      <description>Camel model to processor reifiers</description>
+      <hashes>
+        <hash alg="MD5">424f2b0a15c60b588ef97196fbe2e0a7</hash>
+        <hash alg="SHA-1">766953bbc7f8f0ec98e899c5f3184de5a4a878f0</hash>
+        <hash alg="SHA-256">9be10c5b0a7ade2ac9ff994d56dcfd86f32c5a5f2e2d1ec876f739ac99a86b1f</hash>
+        <hash alg="SHA-512">831483fce6bdc7a2845f1379b6c99bb5abfc9157d5989fa58ae8a92dad6888857d3451a5263c273b2409390149473f3b533199b20ba07444ffc3c99a9c9df8c8</hash>
+        <hash alg="SHA-384">be5c3a9aa3481c42069d0c8e15b7d40b76495363b01ecd48bc818915e6ada2eda74eeeb1a0e90001a9df0a7ffa270f5f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-reifier@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-util</name>
+      <version>3.14.2</version>
+      <description>The Camel Utilities</description>
+      <hashes>
+        <hash alg="MD5">6b2438a446e9fe97b65382d803caedcf</hash>
+        <hash alg="SHA-1">a5a6ca271dfbe0af590e9da37f843cfb469f9e46</hash>
+        <hash alg="SHA-256">b3bf073f33ddfa51d130d2f5542cf5dadba53c51ad181837aa7ed48eb2f76c19</hash>
+        <hash alg="SHA-512">9d4f595f35237c7e33cc138c37a60070a5c22a3803bbccecc39fd06a8d5b7116fe874880355d712bac0443da89265a99dae0d35cfc68367c0bd0967cfce7c88c</hash>
+        <hash alg="SHA-384">5869c3d620785cabe0534977a2fb3985e24b39d295510abd25593cc1142853e369b15248d486dbcaca8c1a1b1c7d514d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-util@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-bean-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-bean-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Bean component</description>
+      <hashes>
+        <hash alg="MD5">3bbe7456616e984c9344aa95f5405c57</hash>
+        <hash alg="SHA-1">0b87b0d4d3219625d76bed194b8fa21555aea401</hash>
+        <hash alg="SHA-256">87f2378003650c38e55e883445d6ecea2de0c34440438ccc9113f03c2ca27944</hash>
+        <hash alg="SHA-512">46310ce2f4528254751336bbe2650f00ffe300ae19d4ffd926674419f08d7086518ecc1ca5f8c60d52c6d26ed4f4f3ba8d6a94c7c994b1ebcade083923fceb16</hash>
+        <hash alg="SHA-384">74551f45bfb263105ba37b22dc26b610173bfcaeacd774c46286dd57658d8eaef74376e2978b2e8e5f0aba78d587946d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-bean-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-bean@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-bean</name>
+      <version>3.14.2</version>
+      <description>Camel Bean component</description>
+      <hashes>
+        <hash alg="MD5">3640247f54ef3be7da87a2e88a9bd8f8</hash>
+        <hash alg="SHA-1">287b10652406496f9ce51ee94374e4e7814694ad</hash>
+        <hash alg="SHA-256">dfcbbef52c8939b7b53db54919ab592ec1a23742d428af138054e9f8652df25f</hash>
+        <hash alg="SHA-512">ecc4d1a2334b818035e75b2b6658d2adef178f5fc8e38aff735c0de399e52ee8a8da493a2072f3c2d7a6a2b8623d3aa0048538517164abaf050128484ffbf5a0</hash>
+        <hash alg="SHA-384">eace46c9715cac048af33fa6556bc79b366b9df86672cea0f4da653f540e90a15190e9b3d32ae621c067790680dd56e4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-bean@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-browse-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-browse-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Browse component</description>
+      <hashes>
+        <hash alg="MD5">df99413b92bcd801104187adf565574d</hash>
+        <hash alg="SHA-1">c887934e8525062d5bb9a4ce9a37d6c94605360a</hash>
+        <hash alg="SHA-256">1181e48e1a77f95092ce8632274a12961fdbb94ffbccff64e5394e7014d2f080</hash>
+        <hash alg="SHA-512">399a6336e98ebd86860c4be67adb0cb09c836aa08b20229229601a591f8fa0bc14f7535c015e10f67e60ff67e3cca4a9bd54e4482120b46545a3bee7484ffe0b</hash>
+        <hash alg="SHA-384">d58a4e30cd7e19551829c5e694e8aca19cfa9fed4be919f8900e92c236ebed1c4a87dd782fdd13428ed335c90f9d51af</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-browse-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-browse@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-browse</name>
+      <version>3.14.2</version>
+      <description>Camel Browse component</description>
+      <hashes>
+        <hash alg="MD5">c20dce3ba3a27202241e6bbccc917507</hash>
+        <hash alg="SHA-1">45634e0768221499841ced1431e0148312c095b7</hash>
+        <hash alg="SHA-256">b4c22d351f9e73c7a001dfac0f57b336a930e5692be266ce981bb84bf40d57a9</hash>
+        <hash alg="SHA-512">9fb704a246123ba2107d8cbd7cafa1b62229a0ccff1382c9b89ee40a68881c6092739d40fa05a957c793e46ea44c1be5fd3f90b2ddc91e86a3fe27b9629f2d40</hash>
+        <hash alg="SHA-384">af1414553de355f71e64a53f628e81688398e68deadaf34d2b9efdfbec3483f72f4ca53284e1056fb6c567232a3c4ba7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-browse@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-controlbus-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-controlbus-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Controlbus component</description>
+      <hashes>
+        <hash alg="MD5">aa3b7325b1e422568c84eb5a6612e783</hash>
+        <hash alg="SHA-1">6e05efc21ed771675ed64935656799f477100ef7</hash>
+        <hash alg="SHA-256">c2f972beef10d5209a2b9aea851c41e7b418dc5dacad5f89d77ecc191d8c0b26</hash>
+        <hash alg="SHA-512">4f57cfcb3caae566569433f84ba87d7e1367a3e7ab9498357ff99ddfdbd15e3b31d1d2eba3261865d083ebb45039ce5d4d5fb1ae4cbc25395bae976e4cfb3011</hash>
+        <hash alg="SHA-384">5ea98f7fcb664d40c13497c4e314a9de40f6cdef5cc13c25813211330f419d483cec68c3fdabd9638184c97d97ce8793</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-controlbus-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-controlbus@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-controlbus</name>
+      <version>3.14.2</version>
+      <description>Camel Controlbus component</description>
+      <hashes>
+        <hash alg="MD5">a6f5057ca5547778525be583f36174a1</hash>
+        <hash alg="SHA-1">b1b5a55a020604e4e7e2bd8664ba0a31c0722f4d</hash>
+        <hash alg="SHA-256">a409f571b90eca3c9c068ecc7e49852a73c310ea00d1d3f84ffb58957b941542</hash>
+        <hash alg="SHA-512">5eeb33e757e66b05c3af54d4390fc4592aa42421aa3b571356bbcd0a1a4bad820886d76c9a3506008880283dd66e763e5dd9634cfa756ce9c22766625c5ca2fd</hash>
+        <hash alg="SHA-384">de578b0610a689c6a77d8d78bbd9602494a0d35e635d6c3bdc69edc3207059de32617455c06ab56a29d27010b5d4a8f9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-controlbus@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-dataformat-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-dataformat-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel DataFormat component</description>
+      <hashes>
+        <hash alg="MD5">9a153cc91499320a2cab98a42837267d</hash>
+        <hash alg="SHA-1">30185446a6f415c29141667f8b098a1ad9f65997</hash>
+        <hash alg="SHA-256">00fa8128b09861068e824971557a2430e87ab9c36f9d311d7c8b341e36bbea41</hash>
+        <hash alg="SHA-512">69d6d72edcc93953620662f0a71430d7be74e765d960905cc627cddd5b5368e6a57cb97a92756d673627b66fc1882e0de286de8f6cc12e141580a4871bc407f5</hash>
+        <hash alg="SHA-384">132e995f35e6181a270ee798b34c4a68bd1d770b1af95aff9698156c1a22a32a4587c80c1fb978eb173c8f6d9c57c19d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-dataformat-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataformat@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-dataformat</name>
+      <version>3.14.2</version>
+      <description>Camel DataFormat component</description>
+      <hashes>
+        <hash alg="MD5">a06660d51a784aaa306e68a4d8f5746d</hash>
+        <hash alg="SHA-1">a9496e2d428277beba2b0ad5bab50df265e99145</hash>
+        <hash alg="SHA-256">c06437e121d3a7fb898be191d3a71000f074312a0d16e84941c9674a6f4e2c09</hash>
+        <hash alg="SHA-512">62ae1b170bc1e6e7cf2f06a166638954fe4a29280fa3290c2c47aafaac1389ef39b5e784616be5be5b332b280509d7a706c5efd968989d5500875e74193a8778</hash>
+        <hash alg="SHA-384">c6f738ab508877f4275c7a0afb79e420e3573f737a89e57d42033b45e153eba66a8f0c54dd0b3801b34b44a653ea1eff</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-dataformat@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-dataset-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-dataset-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel DataSet component</description>
+      <hashes>
+        <hash alg="MD5">08915917e4ab2b0e58ef6f8ebc3e83bb</hash>
+        <hash alg="SHA-1">d98c4aa8f45b7e197895879ec2d49c51291dca7c</hash>
+        <hash alg="SHA-256">6d765660e817435613f18e691d6ffc260e13e2cd2fc30c286435aae0cef3c978</hash>
+        <hash alg="SHA-512">bf86cbca42319a88c651fda275b3835e0988038a71ab5c14286d60b112a6501f40fe180c5a6d3f1d5638deaa277ca77a755eaf46c5398d3a30b783303cf9155c</hash>
+        <hash alg="SHA-384">513f4fa01e1386d8042fb599f79e364b29dfc9e0015137f17743b494ad44b7e8af4fbad480cfd6dbfa3729b910610a6c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-dataset-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataset@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-dataset</name>
+      <version>3.14.2</version>
+      <description>Camel DataSet component</description>
+      <hashes>
+        <hash alg="MD5">092e9c92a88bb5ae8d90d06a9215005d</hash>
+        <hash alg="SHA-1">8aaa7b84457cc951dc5224e92aa5214399f690b8</hash>
+        <hash alg="SHA-256">616c90c2fa5ed9c9a1b1beb831d2c41609c2b1e6f24a5da1242760e8b197870f</hash>
+        <hash alg="SHA-512">ede50670ea189de0fafbe28ada7d59e06478a4b0960afc64972f2b5fb3c5eef83f2f90ddeb8443713b4c12a2a37b3afdfba2ef2170617226890fa2e9b662079d</hash>
+        <hash alg="SHA-384">7f9a983263b6d773dffa7dc6953fc0f87a09a98c7dd751fa5c0bf34a439abfe6594e35586ef86878f47e71923956c17c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-dataset@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-direct-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-direct-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Direct component</description>
+      <hashes>
+        <hash alg="MD5">ec04b373883e4fbc60f8f87de3780322</hash>
+        <hash alg="SHA-1">270cf7d1cc4b023660546c3f448425c6da88d7a1</hash>
+        <hash alg="SHA-256">3ac8483ac416339d7e65e63e13a16037adb566d806be821eb34aa314d0916fd1</hash>
+        <hash alg="SHA-512">8e590bd14fddd6452ca697e1c37c21415e0c6cb44787f7f4ada756ed84d24185d2cdf43f1508a02403441f6feb726bb4e92b6547fef0668ddf1d60b94b4f9f2f</hash>
+        <hash alg="SHA-384">cfcd41f96f44fb10e34873847ef1c0ddff5156e8d3260b6c115b1708108975232dd35e56578a038fa0f7945a75de652d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-direct-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-direct@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-direct</name>
+      <version>3.14.2</version>
+      <description>Camel Direct component</description>
+      <hashes>
+        <hash alg="MD5">56e51a1657fa0d99f32311eef12e3234</hash>
+        <hash alg="SHA-1">bdf4798957a1d2e21b29df5671a5873f4235ac16</hash>
+        <hash alg="SHA-256">0ef0d0ed848a336b7ed223c15fa7cf6017c89a58f26f7b34f1781ef8feb2f83c</hash>
+        <hash alg="SHA-512">a67c2cfeecd859fc2e7b321889f27ee6713f21f510b5fe1ea90ebf8874c335000453979e084aa603a80d3b2dfdd67ce5b8757b6f1c9acb4ee5e121500ba615a7</hash>
+        <hash alg="SHA-384">92fcac47bad4a53bb201549d2cd6f49e065edd5feee5810f8b7056afe3c6ad28c619c0bb376d75300c836902bf09fa2b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-direct@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-directvm-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-directvm-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Direct VM component</description>
+      <hashes>
+        <hash alg="MD5">ebf0f8ab57b464bf7d390cfeb8f4d2d6</hash>
+        <hash alg="SHA-1">705598f26f329c12edec91c4bed60d8535172995</hash>
+        <hash alg="SHA-256">5fd6e7d0a4b299ecbc7ed9665aacbce64731e0bb47fbde3a1514619e2c06389f</hash>
+        <hash alg="SHA-512">8d4212255eb4e9d25a40881dfa90580da6030c496728907400b00313595c7a2ccabff31f74ff6792e784486047a104cd9286164740c214d5d6963a34ec89a83f</hash>
+        <hash alg="SHA-384">4592f5e3e296c11683352a52525130de4598d5e1865f527f9c0622664e77c5c4866d8f3119de38c831c09677863d2967</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-directvm-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-directvm@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-directvm</name>
+      <version>3.14.2</version>
+      <description>Camel Direct VM component</description>
+      <hashes>
+        <hash alg="MD5">1e886d3b108f02224ca66da4d13f0f30</hash>
+        <hash alg="SHA-1">7923143f9d7c78ded318b93d0cbf20a53a3d4dd5</hash>
+        <hash alg="SHA-256">0b1d9b9bc025c1e6c3740cdbc4554c202e5b5179fd0ebb3b5e57f09db62db445</hash>
+        <hash alg="SHA-512">33663c3264169b29cf065370a027522458b3c61220b65527c8d5562e945458692b0dd10bc0c59467cbf275ea46b53adc3d59e541ea587716a0f7195f5124b269</hash>
+        <hash alg="SHA-384">76f8157ae1573834b2d465d4bd79a954f0753dd004fb1f33dd71687638dfe9daac06731f25a041b03fe523ae9a1819c8</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-directvm@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-file-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-file-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel File component</description>
+      <hashes>
+        <hash alg="MD5">1694ace4af2b568589d56a0cec5076ec</hash>
+        <hash alg="SHA-1">d6d2efb711f7a92ac408a467771900f9c182c66b</hash>
+        <hash alg="SHA-256">488d9bb29250e03fc270c2bb27d4c54566eb9f0e8353bf5a96e7961cbe7ee2df</hash>
+        <hash alg="SHA-512">891c271984f09e5cc4f162d7a2b493ae16ceb824321dfde96ac31b224a40dbc5d39898b9a7326f583c94abff5e4ea2c610a6b19e9f43bffbb224a173470f42fe</hash>
+        <hash alg="SHA-384">a6732b265745a2688a7bb110c25170e63c6a5ca96bfc5058140d6c8a29f56915808eafd67874ca2dd14580dc5cb61d95</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-file-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-file@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-file</name>
+      <version>3.14.2</version>
+      <description>Camel File component</description>
+      <hashes>
+        <hash alg="MD5">5e3f24aab4a5bbd877465346b3a647bb</hash>
+        <hash alg="SHA-1">3124eddf981059c2ef320315b4df5fd09fb6315a</hash>
+        <hash alg="SHA-256">97a758ae4a5ba493415c700c8d33f40e2456205b745daca445bbe75eead9dab9</hash>
+        <hash alg="SHA-512">a73f14f2c8ef3a7598b7398a104de6bcfa6341cd010d778f2cec86b1900329c2ecd3783e3f740372d548572deb6915e64a2c798f299f3befb52ae10562de7da8</hash>
+        <hash alg="SHA-384">e5937da43d71a330ae4086b42f0472c3e7002a1821cd2b956063c4314e6470b3655530520e99f2a6f00f2a642c20993e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-file@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-language-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-language-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Language component</description>
+      <hashes>
+        <hash alg="MD5">387ce5264fac61ab713d755a1df15322</hash>
+        <hash alg="SHA-1">0ffdbdb9ee46918ff60202dd80da0f1fd64bd02b</hash>
+        <hash alg="SHA-256">dd85430fd432c93f1b3193c28ed1b71a9e4552e1e6d2d2d711af109e59b759a2</hash>
+        <hash alg="SHA-512">5b578e7b6632db970eb8437e811f8cc100e3b66edca3f8894b57d8be2a6ab0232d4523e7a6a03b1cc52423a60a2cfa519eb2f5058257b118397b257c8560bbb5</hash>
+        <hash alg="SHA-384">bf6099d652ad80b3104bbf8f6a0cb062e427e2410c3dd6d69806b0977d34cdd3383acb39e699ea7bd062721bcc3af8c4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-language-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-language@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-language</name>
+      <version>3.14.2</version>
+      <description>Camel Language component</description>
+      <hashes>
+        <hash alg="MD5">8b6be7feb0b3ea3638c4c878ec2e6b40</hash>
+        <hash alg="SHA-1">c874700f6e135b0a9d3163198de23d94258e5949</hash>
+        <hash alg="SHA-256">64a961c398c107481c4d455276682015d9a1605fc8f54b13f96ac5c265c6c972</hash>
+        <hash alg="SHA-512">15a12fe14ec0c0c675c8c0de1478bfaf99f24ed6a7402f872985ff014f8b5fa4c00f2ff7ecc9514638ed6b706714e128d09da9e2e463e745750f24d734b5ad36</hash>
+        <hash alg="SHA-384">9693daf267866a1e2c1d034cb9ac724ea59b53acd4bcbb55e4913a793f2e88b4108cf0a349269626fe3556752767008b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-language@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-log-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-log-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Log component</description>
+      <hashes>
+        <hash alg="MD5">6fe3aaf08663888aa5028c5377f966ac</hash>
+        <hash alg="SHA-1">ea59e02823c41bda7d5cebbe301ed0d7b9cc731d</hash>
+        <hash alg="SHA-256">15ee81ec0b3d361de5ae7b71d1aac8c336233f818ca0189b1b1e925a070da151</hash>
+        <hash alg="SHA-512">e3064303cc9ef96f1eff204fdf68c0717effa981a5090b4245f9e2a7a2f70fd156b24d461095a52808269fc579c8493df50b8b4897438da9262afbac3749bb9e</hash>
+        <hash alg="SHA-384">8c6ebba14bb427f0a44ea655d1584150e120f6df56edc909ed0b4b8cad83a56945603d1aab1658832716f09d068f3530</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-log-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-log@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-log</name>
+      <version>3.14.2</version>
+      <description>Camel Log component</description>
+      <hashes>
+        <hash alg="MD5">3163d0cd56f444a524beb76225a92ea3</hash>
+        <hash alg="SHA-1">a0acbbc73c7a33ef0ba5bda1b43be7ae774eec6d</hash>
+        <hash alg="SHA-256">212f62032808ca7da3b02bd6f6f1d4e4a521b0aee5cf143a410acda9c33d6746</hash>
+        <hash alg="SHA-512">dc794317c61135bfddcbb0ad4322acc55e1e8ff0e01afea48f058075a0398cea87b51693c6ee92f29061603d8dc893398682d419741bbfaac6954273fb7c9618</hash>
+        <hash alg="SHA-384">04b23d7ac5a08ffd968c5e8503074eff777c5fb974d07618dfcc27fffeb4a5a015d26ac5e566c322a9747b52904112e4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-log@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-mock-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-mock-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Mock component</description>
+      <hashes>
+        <hash alg="MD5">a152ca792decbc13e44c3b139bc2d6a0</hash>
+        <hash alg="SHA-1">534ad7ffff0fe68cdf96c7c37a319d09d5a7eed5</hash>
+        <hash alg="SHA-256">a4a8a032b55c8ed8112c1026a00b82c89e11be74617183e6625e280413b519e5</hash>
+        <hash alg="SHA-512">2fb8aa286fb5d3021fefeb5bb88f2e0b6cce6f4ab86ed075c8ff275d1170fccb37b0c4be3b2faf66ddc1ed8d3a22d028c152cf8871e3a95db5fa6f699a7144c0</hash>
+        <hash alg="SHA-384">a36cdb866d04b1c2c61661365e3763ab1db9d9de42aba24f2afafda73d17d0c96a72d33b1f3317400dea4a7b766db4e3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-mock-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-mock@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-mock</name>
+      <version>3.14.2</version>
+      <description>Camel Mock component</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">dcd3bcff740b544021eb0776101bf904</hash>
+        <hash alg="SHA-1">b072d64810832ef65a97c0b7508495a9902af2e5</hash>
+        <hash alg="SHA-256">50a10fd8a91a97ca16d26a07dde895ca4d1d1def09bf3625333445ce45ef2278</hash>
+        <hash alg="SHA-512">1dd0f75f751fedec90462a5570bd5a172b6477c073ed974013c3e074fea70e3e88b0a2896d7a3f9d45fa8989482515c895ae3d24fec6fd44c0bb83b04c4e28d4</hash>
+        <hash alg="SHA-384">f19fa0bf713a42c311d0bcff657107eeec24c3f78c9cd3390c58c4d9c0a541f15aed6735fa91d121ed5cb31b861e3915</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-mock@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-ref-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-ref-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Ref component</description>
+      <hashes>
+        <hash alg="MD5">b469f2d864da7f75d3d62df6d5110b75</hash>
+        <hash alg="SHA-1">3bff06d37fd3c0efbea1cd1a9b382cbfcf8e67d3</hash>
+        <hash alg="SHA-256">0d91c6ce2f89a1d408e3475dff76974d4f85ebcdfbc816efcfa476c9cb9663bf</hash>
+        <hash alg="SHA-512">83056a1920c9b215c124f127524c0d8040bfcfb15a6ac2fb4839a2bd98e79a830d01c6580572e5165718c1acdddbe14e9da0cf51793666eb9c3b7a85f1b98446</hash>
+        <hash alg="SHA-384">bafb64b5edb121deeaa2e3548f854e3f8e8fcc746791f3f0ca1af1a85da285a1f568dc0ad29b1be94c53999b121d30e7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-ref-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-ref@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-ref</name>
+      <version>3.14.2</version>
+      <description>Camel Ref component</description>
+      <hashes>
+        <hash alg="MD5">8e40af3ce32de9baca36110268831794</hash>
+        <hash alg="SHA-1">afbbf5be805628f504528fc0444f08c0162ce066</hash>
+        <hash alg="SHA-256">71305d60d4748446655de89287b92a908e2649f4d387552b621505d67384403d</hash>
+        <hash alg="SHA-512">2a8dcaf7d5fe34b8cc1eac8463623cea8c9e4171f5774706ee74e7c1491a86be725d1cc3f029231c70e35bc4e615eaed6d331e4e86093edf155596cf67709dcf</hash>
+        <hash alg="SHA-384">69ce8c3ba8dfa161c5708afd0c5a8438b834f6a7750cda4884bc8d3490fb7bd6b35f8bdd4e3bf50510846778814fbc11</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-ref@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-rest-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-rest-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel REST component</description>
+      <hashes>
+        <hash alg="MD5">004a501b4a61b81bb5a85e1be78634ee</hash>
+        <hash alg="SHA-1">40f03ec3de3efbaa0fd4e3d6663229e90664eec3</hash>
+        <hash alg="SHA-256">0605f9d1ec7ac725f0861ddc0789f3f34dcc5948b1fe66cbdc0f33c0995ca0dc</hash>
+        <hash alg="SHA-512">cf86a0f5bbb9a4583d4fb410547298173dd08c1b235d61b8dba236eb8dc13c3696cbef125f36ff80edcdf1d5d0e4b8d27050ef96247e7da4d11b3b535f471635</hash>
+        <hash alg="SHA-384">c4426bda5a322236eef7eab636941e0337334342f84dfb59cbee688321d8bde0aead18f635cfd1711918b2b788016030</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-rest-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-rest@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-rest</name>
+      <version>3.14.2</version>
+      <description>Camel REST component</description>
+      <hashes>
+        <hash alg="MD5">6236bec2734951db990429a50d69bf47</hash>
+        <hash alg="SHA-1">49f31fdb632abf9d7cf275c563238d8dbeb7757f</hash>
+        <hash alg="SHA-256">5d7359bba9c96fe74603e867a311bb53fd20ae18e3a8b357e1f923edf5bf0053</hash>
+        <hash alg="SHA-512">515acc12e239062ef1f3854e2822ad08b45715887362db60a0a56fa7c9967ffc047d353c789aaf8adddb2a40e23162026496c77daef966705327fa9fb2c43c02</hash>
+        <hash alg="SHA-384">10c9970337ce6e2908348cc87eb203afe38198e5e5b407eb7c6b700c852fe361da6372c1145610810e18262a1876ca29</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-rest@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-tooling-model</name>
+      <version>3.14.2</version>
+      <description>Tooling Model</description>
+      <hashes>
+        <hash alg="MD5">8276c39d93dc2c60b6e4bd95d6312e3c</hash>
+        <hash alg="SHA-1">d3d2e388dcffa588edb6b2419e2b23dafc8608d2</hash>
+        <hash alg="SHA-256">fc608eaf311cbdfd942d55bf7ef7874005487b99fc8ba9bedd83db59a674481e</hash>
+        <hash alg="SHA-512">6eb278007c64a38d836e3e43909b93fb7646cdd9817fb7c115b6cce2963d0ceedb89f280d2b0304b726e32b465c57a452230b6330c902a015745a0ae4a2b0354</hash>
+        <hash alg="SHA-384">5380b327f5831451c5047c2aa9c43bd5fb95ab2c02c6db0887b6ccedae67b5830ba85e74f7758127c2bacf30bfca3e28</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-model@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-util-json</name>
+      <version>3.14.2</version>
+      <description>A json simple parser that preserves the ordering in Map as read from JSon source</description>
+      <hashes>
+        <hash alg="MD5">071d379e1e462b4f7a96e196953c9d37</hash>
+        <hash alg="SHA-1">ffd77666506dbf81eec8ec22a14b4954fafad97d</hash>
+        <hash alg="SHA-256">484cc492a5043220a3da5e7494803b67549328a83bb3bd0fb07d3b807e21cb3f</hash>
+        <hash alg="SHA-512">56f0a4a5eeeb7236b5e6ae26de5d2a8887bd6a37935ed3b4eccb215fbd9dc7a914c1c4b900ad99fc4152f675770c3fff5192bfb7e7a43f46feb0c858a00d4b5a</hash>
+        <hash alg="SHA-384">cfae984b957f9f7e6b89c2aa4610aff75469059b1ffa025c773214c34b3de9370a2ca46335a51a778dea713cb08eef9a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-util-json@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-saga-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-saga-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Saga component</description>
+      <hashes>
+        <hash alg="MD5">79c54aa8c5d2632d9983bd61ed93e10a</hash>
+        <hash alg="SHA-1">5df43f31980e044fc0a045105690361d35cf3990</hash>
+        <hash alg="SHA-256">1e734a35131f93e06d17d4cfae4631a8dfd3bc8bd68e71e560cab00d41ba79a3</hash>
+        <hash alg="SHA-512">263136ffd50de36dcbb809cd11a540e2656eb76d4720275cff316bb5c809dcf1d3976665bd99edb29b271e037929faead524c911b0a8adaa999812bf8e0430ed</hash>
+        <hash alg="SHA-384">c5ed9dbed4614fae054d4d9fce45a31869083b69b29da359a178731b7a7b613282beca3e5d8b2eb2b13dd81f8cb4393b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-saga-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-saga@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-saga</name>
+      <version>3.14.2</version>
+      <description>Camel Saga component</description>
+      <hashes>
+        <hash alg="MD5">611961cf9d87e5c67d5a0eb32b871f68</hash>
+        <hash alg="SHA-1">8cf8fc60d7b72f56ddb2e435a339fa3208250b0b</hash>
+        <hash alg="SHA-256">113d55d0ce55d8935ebec662884e6957eb32da3c140c5393b1f8013d1ad87558</hash>
+        <hash alg="SHA-512">de8de2cc8395489497176f66b147cc39945cf4eb16db199a3bffbbfc26b6a2530c6538dcbd744c1731d03d17d1344bbdeaa964d552ba9cf135d9240fb073aa39</hash>
+        <hash alg="SHA-384">62e753dccd25440fe2fd1b3401d67335611a8e112230ba303edc8980b4faf82c4d3b585bb96ab4d35ed86e8e91c0a4ce</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-saga@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-scheduler-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-scheduler-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Scheduler component</description>
+      <hashes>
+        <hash alg="MD5">25aaa57365cf15273176176df99372d9</hash>
+        <hash alg="SHA-1">c0fd51dd13e736d277f9c67c2a784d059527a32a</hash>
+        <hash alg="SHA-256">05717c1bdac2d814093565694403953ff01c257bb1460eedbe244c1ac58d5d30</hash>
+        <hash alg="SHA-512">0f87f519d05fcf05ba602360b63048414ffda996e7baa68de0da7c5c6d0ea9d509850adf6d08a8b3bbe250d4a6c7b73c73ef9ede69715c66a2b384aaada1d408</hash>
+        <hash alg="SHA-384">4c5eb27a7109933b00c37d929bc87d679e6fdaa5d885389b6b40e4d90ef79aa9acfe000e8de32928959785c7903eecfe</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-scheduler-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-scheduler@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-scheduler</name>
+      <version>3.14.2</version>
+      <description>Camel Scheduler component</description>
+      <hashes>
+        <hash alg="MD5">752cb94a0e78a8a2d4799aa2dcb0b8b1</hash>
+        <hash alg="SHA-1">fbbeaadc9f8538a2b52aa19d955e5a8706a5f4b5</hash>
+        <hash alg="SHA-256">204ef6d588c32876bb788e154357c2ad36ba34703448a0df145dfc570af8fd96</hash>
+        <hash alg="SHA-512">8d9dbbfc95fb92801f3714f1bb3cd72c2615c4b01ec18d09fb6b63f99791d72bcd76571aad699a2d9f867da569b59c68a901f63f68304b623e386776bfe00270</hash>
+        <hash alg="SHA-384">45c8e32d1209b66e02f70936a5d5f2f75d041143d8d88fb529dded147655ccf8170308453750571b004a40b8cad47a4c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-scheduler@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-seda-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-seda-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Seda component</description>
+      <hashes>
+        <hash alg="MD5">72edc44cdc4c2f66ca0e858babb3c9c9</hash>
+        <hash alg="SHA-1">b8c680697a1826147468c07bfee39b343372ff6e</hash>
+        <hash alg="SHA-256">77f1edd8f55e9d636b9963e954f3b08263ef684247d278a06e63b93ae0310e61</hash>
+        <hash alg="SHA-512">ceee92f551fe26cdf7bb46ff20cc8dc7839519246cfe6398ab2ff73e51bbfe650b1922212d82993c6aff7db3058ccf2205b744daf92b3aff59f4d4c861b24688</hash>
+        <hash alg="SHA-384">f58a4c114f9606f3709e6c473fa6e1dea991ce430dad5e5f2411937c4e2f8b9b8d7bb0f5c941c03bb44334e37022080f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-seda-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-seda@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-seda</name>
+      <version>3.14.2</version>
+      <description>Camel Seda component</description>
+      <hashes>
+        <hash alg="MD5">adc7338cd36ea2b6395b97c683c698cd</hash>
+        <hash alg="SHA-1">2367aced2cce7215a8b8146ede4a567a2b98f5ce</hash>
+        <hash alg="SHA-256">0772ef7bbc0548ea758a29c7cc5e1c05e270f87a58b10eb608b18b40ba632ef9</hash>
+        <hash alg="SHA-512">9e7cd76197a53a47ed3ecb79ed1335ff05691b6627d54c8420099acbe9216cc2021d0b0b9d3fa3b02b2ef9a3fd52e2dc17c7bfa2b322bf873602f2fd611ac62c</hash>
+        <hash alg="SHA-384">749fa26feb547b757277350e6c80fa22d3d01e4877fb0485d7be15f250c20f57c7eaaeb296656e1ab8a4874c56e29727</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-seda@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-stub-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-stub-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Stub component</description>
+      <hashes>
+        <hash alg="MD5">e3fc5cf7840c38d06c0e93df3992e12d</hash>
+        <hash alg="SHA-1">0cdc91cff42f66374c3cbe3d4c97db0585b971a0</hash>
+        <hash alg="SHA-256">fd33ae0e60cfef1f52ee32b29da4901e818b58412baca165396e1ec74adeffee</hash>
+        <hash alg="SHA-512">a5e7e6c11910b3a82ba5433a3aba836b1f3d0d0155006fb4e76e3bcfaa997b9d99490d409ffa6ea2ca52f8cc93e5a59f8d9441c6f0d8ba17c005e8f6bbc74927</hash>
+        <hash alg="SHA-384">784c72005d22b734ab901f02985f8da41f97ec9168673861385bcb2dfbadabf7806806adcd7389f417ed8097daaf76a0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-stub-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-stub@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-stub</name>
+      <version>3.14.2</version>
+      <description>Camel Stub component</description>
+      <hashes>
+        <hash alg="MD5">d07a15cc4dcc0d502bfad165a0a89b5c</hash>
+        <hash alg="SHA-1">c4a1c4aeb75b5f6235d6d7a1fa06009213c84dee</hash>
+        <hash alg="SHA-256">0210f825c310a8760947ce7f50068a51467f7083b99d42474320ecd71634ceea</hash>
+        <hash alg="SHA-512">be9cce441d0f1861fdf7999c9055a2269c3cb9bb58dd696e82bf0e5c81caf36c1a002add07412dc2ea4760f0350e67adb04575d2c01c56b7a757cc0c38e1d8ad</hash>
+        <hash alg="SHA-384">5a458cea9aa2020949640682c4c480dad6fe814ef29b8b879ee8e958c5552ae3bd941b21d63ab47c2bf4084cbdf184e4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-stub@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-timer-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-timer-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Timer component</description>
+      <hashes>
+        <hash alg="MD5">99a7f77cad4e3e8eaa113ea5692f7df6</hash>
+        <hash alg="SHA-1">a04934f833410bed478412cea297b7e08af8386e</hash>
+        <hash alg="SHA-256">1868a7232a5bbb6e384a979fcf97c70583359c11f0e952c7c52bd4d7693a2a47</hash>
+        <hash alg="SHA-512">c26c63e14e0c5c06ade9aff2330035c6e60a9b462c1a3340c513665ee9b36ab8b92f0b1ee1ec35ef583cf250b4edc80f2b3bb5a64c7bffc87139aa3f9503debb</hash>
+        <hash alg="SHA-384">e4080d68d40b1046eae9b7c0470a6be7783a1914ba3f70ece7680f3849941bc822b2db8a8c4808fb1c2be1abce7eea3a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-timer-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-timer@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-timer</name>
+      <version>3.14.2</version>
+      <description>Camel Timer component</description>
+      <hashes>
+        <hash alg="MD5">703a99785cb4f7fe65403680c81eea0a</hash>
+        <hash alg="SHA-1">4e3fc80c283a17f4c96ac705aae5ac58df50423a</hash>
+        <hash alg="SHA-256">764a11484b40844f78c967ea1cd2667bdfaaacfa5de9cc9ed46583b7bfa29cf3</hash>
+        <hash alg="SHA-512">d72dd12d2d60d06d1b701a68cb859447239717ba0c1ca85cb1baf396559e8e562e4ef8c52b8e77a60f6dd6cdac7920ad0c4cd2e5708c086fc51b80d4c072a5e1</hash>
+        <hash alg="SHA-384">60e0dc37169527a669d262c9c2da151cfa982ed6bd7a7e50c13a03718457333c69f6ad08ace5110bb5c8d35a143eb83c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-timer@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-validator-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-validator-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Validator component</description>
+      <hashes>
+        <hash alg="MD5">4862dece89081f54cc77bcb9c53e244f</hash>
+        <hash alg="SHA-1">e26b71ac48493b520f53fd19bce11d4f773be52c</hash>
+        <hash alg="SHA-256">dc3704521d7d70562d3be9a7ff25e9f73983a08db25df0efcea4c8de37476217</hash>
+        <hash alg="SHA-512">2588679b8efb011692b4dae8cabe8206dd02ddefbf8cb5716105b6dd9b006427318c1eaf098142a5e0164d25d272b015e95067d51b2fd459cfcbad9c95c666e7</hash>
+        <hash alg="SHA-384">235f6dddc4fa16b11ec652bdda5a7775d81b651536d8e5942591485763fc395f6aa42dcc0fcdb8e25ef9f77707b21b39</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-validator-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-validator@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-validator</name>
+      <version>3.14.2</version>
+      <description>Camel Validator component</description>
+      <hashes>
+        <hash alg="MD5">524f24fb6beb37319997e94fe7e977af</hash>
+        <hash alg="SHA-1">d4ac286eb21bb72cd13d209c2cf56291f0d66143</hash>
+        <hash alg="SHA-256">fe35ad1b8ff99c1f9be12bdeaf4ebdf4f4fc81b260b16342398a31abcf7f08cb</hash>
+        <hash alg="SHA-512">1e077753fd26f8d8b0b1f104e42f5e88e31b3f308958a4745bf944203c7fef0dd871520e6885edcf29b832b88e1d058d6e9aaa016bec1d7e49d85e5c036eee1b</hash>
+        <hash alg="SHA-384">e43ce7036bf615b27934aafac3497d2063fa9b97145e6b3278f8bf7e8a6952fa688d4e9bc728efc6f1e84e2f191c6161</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-validator@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-vm-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-vm-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel VM component</description>
+      <hashes>
+        <hash alg="MD5">27ad8739d799879b4b1f1651c23c10be</hash>
+        <hash alg="SHA-1">6017a98f1471ea0f97a911fb23472c7b8ea3b399</hash>
+        <hash alg="SHA-256">a3ab94cc6d6c88c96d4988bda1d1c276c7aab38676314faf11f2fe75184d15ba</hash>
+        <hash alg="SHA-512">95ac587896a770ac724363df448d236307f5f90c833e606f92f24ff02f51f5616f0cb74e3fb6b26c317a42de9463f84296249fc32553215f9d33a193b75da426</hash>
+        <hash alg="SHA-384">a7e524f14ed8e1bda11ac36eda2ed4d466eb37de32fda99292ddb12079dc5ab41480cea3af6d9ccddafc7946c28e2374</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-vm-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-vm@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-vm</name>
+      <version>3.14.2</version>
+      <description>Camel VM component</description>
+      <hashes>
+        <hash alg="MD5">30a453c3b86c43db75ebd014e05f1cca</hash>
+        <hash alg="SHA-1">ebeca8b8910fd3326075bab4aa6d6f47d06e8b40</hash>
+        <hash alg="SHA-256">b561a7009fe3dfe60f9860d2ac1008edb3cd2c218adc5172d19f684f67956efe</hash>
+        <hash alg="SHA-512">2c2ee33e26cbfc7ab0931b09cf00b9665aaef3a1dca28a4d8844036a7a5764083da3693198ac1f8c4c73bf251301d9a1e1acd26ae1059933aad3461e0a51d5f1</hash>
+        <hash alg="SHA-384">a6df96a11c03c3a152147932588091f9da19fda8a9f4096e06294906dfdd523b716879428b5e06b4d266a73ee72ab9d0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-vm@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-xpath-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-xpath-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel XPath language</description>
+      <hashes>
+        <hash alg="MD5">22561263611ef7180200f2ce8a9b2474</hash>
+        <hash alg="SHA-1">1027bc45c40eeec35b30c2b435831017267784d4</hash>
+        <hash alg="SHA-256">cd3352f42b396bb2ba7da686e6b0ec295df4f6d20dd23ab405d817a9e1d8d5b1</hash>
+        <hash alg="SHA-512">601340821be1c9e09b9f933ecb1011bd1b21d5f02714746f923ed4200be529bd8810290f3116ebf6745d4e17a70dfc09e4e2c23f97ee0c8bbab9a44394f2644d</hash>
+        <hash alg="SHA-384">fd3e7510da6b6df305f71da90e269f8555e8fd3a4d791804b12a8bc5f82746832e5d2d7ca6e2474ced1061cd5f7826b7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-xpath-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xpath@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xpath</name>
+      <version>3.14.2</version>
+      <description>Camel XPath language</description>
+      <hashes>
+        <hash alg="MD5">146c135f49e3ab5a2632e39f10775176</hash>
+        <hash alg="SHA-1">895273c8a3e3d4aef3aab9534f16f0d87ae02b36</hash>
+        <hash alg="SHA-256">206c12ea00c58f406ea153ac49ccb90b38a98c768a478b5c139925bd4f134452</hash>
+        <hash alg="SHA-512">5d934bfd7af7873f5b496f17dd8828c248bc094d79a3b507e49777fdbf86e2bda42aa1a6607ba7f78605dbd1342cc813d13621343fb992332d67f7f3e40f0d68</hash>
+        <hash alg="SHA-384">ef0b97cc7a2e31da51442edd310bf672c023772c27baa5e07c16eae5ac4a4b3e7a3b95528c4c1181c421807e8148512b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xpath@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-xslt-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-xslt-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel XSLT component</description>
+      <hashes>
+        <hash alg="MD5">7c0a1c1021fde9ba5bf516796eaeb574</hash>
+        <hash alg="SHA-1">b89bda21b9be2b6727125424a5e0e60f3e7768db</hash>
+        <hash alg="SHA-256">f076f078c59dbe375da69d058ea6e449feedac77d9e691a308004e4a70491cc3</hash>
+        <hash alg="SHA-512">e63a24d151100249d1c8a3a247b44a10122c24cda68c4fe15f35570df3de001d8c66afb36dcca81a798c937c323127c0ad385ba1ce8eee2cdbd53e17b27f1f95</hash>
+        <hash alg="SHA-384">86ad1001b3c59f2798b7438287d88b913652be2936e8790ec5608dcf6d9eb888204eb478e367bfdb2d4a948c3f0ea586</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-xslt-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xslt@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xslt</name>
+      <version>3.14.2</version>
+      <description>Camel XSLT component</description>
+      <hashes>
+        <hash alg="MD5">74a564f0e1de16c92fac5f142198d75f</hash>
+        <hash alg="SHA-1">879ed3826ad7fb033ba7e56ff7f7024d036d226b</hash>
+        <hash alg="SHA-256">01ded808a7afd871676fc44590ca1d639ea23aa9c18de9f800ca1efd1498ce64</hash>
+        <hash alg="SHA-512">9fd4bfec7ce5f06e6a68825643eedd0954c5790d9ff72ba85c0526a0bbee3d4b935e00bb09733b75147f54f8e3eaf4555fc21deafa10c6fbd0451d2955e56b41</hash>
+        <hash alg="SHA-384">8b0f09cd11427d8bc60ee723bad280ebd206dedd1c9ce7a24d0e472ee18a3cd56d4b310510e86057c84d025e7847e7ba</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xslt@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-xml-jaxp-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-xml-jaxp-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel JAXP Support</description>
+      <hashes>
+        <hash alg="MD5">beb25f3354b3a604d2e9a493f9782f6b</hash>
+        <hash alg="SHA-1">9bbbe0794329342bbf9180e526061bb33deb70e1</hash>
+        <hash alg="SHA-256">81757f98736801090f9912f90f7973850faaa866a7c420c22fef21b5eaa38bdf</hash>
+        <hash alg="SHA-512">7d45589785abb0d7ff32f0f207c0a2fd844babac32fd4e7b35b3f456ea13709b01d5c6982adaf3e3998a3b5a901cd88894c4512a2bac418c7fc021a951860cc1</hash>
+        <hash alg="SHA-384">01a5fd8a8919cc14ecf808f285e81f8715c0c014ac589661c72adbe4fa3738ba8bc66ff461671bff36ac4c6cea9ed5e1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-xml-jaxp-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xml-jaxp</name>
+      <version>3.14.2</version>
+      <description>Camel XML JAXP</description>
+      <hashes>
+        <hash alg="MD5">81d83f8d9b15e8647386172a83ac77db</hash>
+        <hash alg="SHA-1">582e01ba4d19ffc5f8b2f05b0286f7aa09d9b023</hash>
+        <hash alg="SHA-256">f3629031038f9901c1bc76855903063d842c549ff7b1ab412ed5dba04a2c60b6</hash>
+        <hash alg="SHA-512">585e4ea869f80a888d2c175d835e25138e5c62c22854497a48e2ffee15be1e29fbce6b8531c2d2ad0b4c598aad97e71e887855c154a65b429e090bd11918a530</hash>
+        <hash alg="SHA-384">1cc80f834f3c836676cc8b9d5617176ec2adc9812ac5982a44be5be92749f779a44eac91ca54dd65141c946a9301adde</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-io-util@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xml-io-util</name>
+      <version>3.14.2</version>
+      <description>Camel XML IO Utilities</description>
+      <hashes>
+        <hash alg="MD5">030111fbb3f4fdb3bd08dc4f8db864a3</hash>
+        <hash alg="SHA-1">1a161a5a9d23a275d2e07f306fb0e1d289d03032</hash>
+        <hash alg="SHA-256">80b4daeaf2bf2189475a5b3c2d4e16fcba27bacdc7164d6356619e879a29cb60</hash>
+        <hash alg="SHA-512">445510fb097cf9baa23e0679f32571f9424d6341a45c5bf7b49548268f15bdc4865e864527336f1f1bc17c220873de750301bef4f9ca4d0a0da4c7a82067c6ab</hash>
+        <hash alg="SHA-384">9beb38b3a842f4eb53390a17215b2c608dafb7d58cfcaa21ecd3df2a97f379a4493799e73fc5106164de644a0e1a0651</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xml-io-util@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-stream-starter@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel.springboot</group>
+      <name>camel-stream-starter</name>
+      <version>3.14.2</version>
+      <description>Spring-Boot Starter for Camel Stream (System.in, System.out, System.err) support</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">3292645c736529e0950f923ef34c7e94</hash>
+        <hash alg="SHA-1">a64ff31142997f244150ce0f204c084c9285049e</hash>
+        <hash alg="SHA-256">ae17441827d96fc964dcb5b440d9883722566df4eea6ad91fa81a5dd697fc294</hash>
+        <hash alg="SHA-512">7947504a27be09c68331baa19c2c2eb5b595fe5408036b46b50b9fc701297f90ccc5aaf3587d852d17561b248aea8107ed83d95a99173026e60004747c8475f6</hash>
+        <hash alg="SHA-384">f40ac8c001e0155d94990ec3e46ea7179431cc13eb4d601db3f0230f0b6a566d6a114e5d6e9254d22f57bc1988c6f850</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-stream-starter@3.14.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CAMEL</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-spring-boot.git;a=summary</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-stream@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-stream</name>
+      <version>3.14.2</version>
+      <description>Camel Stream (System.in, System.out, System.err) support</description>
+      <hashes>
+        <hash alg="MD5">ecbcd46e954eee25742b44888c96ac4c</hash>
+        <hash alg="SHA-1">8fa76237a48b2b45a9348c23156b1a324462b264</hash>
+        <hash alg="SHA-256">9ef4d9cb471b9486ec309f10e60a17876a90ae6e2a321486210aecfa0d7d6e21</hash>
+        <hash alg="SHA-512">6c019024ee5653de61a3514573521ea5dbb2f1682225533b1fab0093f6edc0e67573b847de864f129d2cf52254c28dcecc59ed7e95b96d09acb5bf63aacb22de</hash>
+        <hash alg="SHA-384">ad5ada64cd2ee5fa05fbec58d1f85d5b509de67a919db4c28ad76d0306439cc544b395780509895116b0f696c5bcafba</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-stream@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-support@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-support</name>
+      <version>3.14.2</version>
+      <description>The Camel Support</description>
+      <hashes>
+        <hash alg="MD5">f054b2d7a5003526d8943d9004de65d9</hash>
+        <hash alg="SHA-1">efa7441449b1bced07b738ec3a21d5553d60641c</hash>
+        <hash alg="SHA-256">c2734a76318c7cc937fba7ac49b0a57c722f019db56b4684c49eda15f708779b</hash>
+        <hash alg="SHA-512">40366aec5353abefff7b6b403912fe501e8381b9ca8ea4f11e4259fe496c312c3f70f8d65471de5e263d8174c2463a368d6be40028fc32f3fbbd824e44ecb31b</hash>
+        <hash alg="SHA-384">3ac334c5428d3b22d48f8dd987445e865b7a7131578717233efd1b5baae129deba92bdde76a215f0ce7a28680f3793dc</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-support@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>1.7.36</version>
+      <description>The slf4j API</description>
+      <hashes>
+        <hash alg="MD5">872da51f5de7f3923da4de871d57fd85</hash>
+        <hash alg="SHA-1">6c62681a2f655b49963a5983b8b0950a6120ae14</hash>
+        <hash alg="SHA-256">d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0</hash>
+        <hash alg="SHA-512">f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b</hash>
+        <hash alg="SHA-384">2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.xml.bind</group>
+      <name>jakarta.xml.bind-api</name>
+      <version>2.3.3</version>
+      <description>Jakarta XML Binding API</description>
+      <hashes>
+        <hash alg="MD5">61286918ca0192e9f87d1358aef718dd</hash>
+        <hash alg="SHA-1">48e3b9cfc10752fba3521d6511f4165bea951801</hash>
+        <hash alg="SHA-256">c04539f472e9a6dd0c7685ea82d677282269ab8e7baca2e14500e381e0c6cec5</hash>
+        <hash alg="SHA-512">adf6436a7a9dc6f64b97127861d7a89b78e82bea67f72bda800ef285163adcd84dbf006f679108a2a8c2eed013e0b771da2354087e0845479ff2b6318b881442</hash>
+        <hash alg="SHA-384">bad8b9f52bf7a7e1d3974cb305a69c093fb32d2131539c18d34e471e3ec32bdd9dd136bb4b38bb14d84e99c562f208c7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-api.git</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.activation</group>
+      <name>jakarta.activation-api</name>
+      <version>1.2.2</version>
+      <description>${project.name}</description>
+      <hashes>
+        <hash alg="MD5">1cbb480310fa1987f9db7a3ed7118af7</hash>
+        <hash alg="SHA-1">99f53adba383cb1bf7c3862844488574b559621f</hash>
+        <hash alg="SHA-256">a187a939103aef5849a7af84bd7e27be2d120c410af291437375ffe061f4f09d</hash>
+        <hash alg="SHA-512">e3d846ff5f62ad9fef514f0726846c63d4aa74b2bb8f60c76258dba37701f83ae75872401071bf40da40697d43a8a6e36d08fa4ef39fe70797fb6f2b1712599f</hash>
+        <hash alg="SHA-384">3e25702596eca7dd48f904b3985d64b4b394d162d3884a907d8b2ee647542808713a42a02f0eeff2c07518a206cc91cf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-core@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-core</name>
+      <version>5.3.16</version>
+      <description>Spring Core</description>
+      <hashes>
+        <hash alg="MD5">9610694e899c5daaf531bdda3ab6c7f0</hash>
+        <hash alg="SHA-1">db1b277cd548c725144580dda8703ce179fb3769</hash>
+        <hash alg="SHA-256">0903d17e58654a2c79f4e46df79dc73ccaa49b6edbc7c3278359db403b687f6e</hash>
+        <hash alg="SHA-512">c0fd24a1abaf41ae0d91fa61362824cc2a6fd5faa233edff9cd48f691d70d2792b3d6d6b3bd937b0485536deec6fb7ed799d8e20ee3c5daa22332eca8c68768d</hash>
+        <hash alg="SHA-384">8cbec203061c134daa50284773157973b935da389034255e0a0a4bc1029a148f4603e421c5128c4ae214cdfc19079c51</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-core@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-jcl@5.3.16?type=jar">
+      <publisher>Spring IO</publisher>
+      <group>org.springframework</group>
+      <name>spring-jcl</name>
+      <version>5.3.16</version>
+      <description>Spring Commons Logging Bridge</description>
+      <hashes>
+        <hash alg="MD5">6d83289ec16d22c144e113f54cc8d976</hash>
+        <hash alg="SHA-1">18d422952e0ce534c2b0ac8b47176c2432fb7e78</hash>
+        <hash alg="SHA-256">705628101aa039e711b6fa469d95d9c3b8fb80290f434c1a68ddb0934d0b8735</hash>
+        <hash alg="SHA-512">ae1f122a30d4f12bfa11c8e496029147ee7bd109bca244471b1b77a1793110d2da84bc9a85dacb4aa94985935be645eb70d5cd158d7b2b70e072c4e9ee642afa</hash>
+        <hash alg="SHA-384">e8ff5aa3d882f75a4e53a2d912590f9f81eecbac50e023adcda42b78dc64bca55351686faeb52b573729cbe3aa3d83af</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-jcl@5.3.16?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-languages@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-languages</name>
+      <version>3.14.2</version>
+      <description>Camel Core Languages</description>
+      <hashes>
+        <hash alg="MD5">7accc7425399eb08d88c87b29992ad49</hash>
+        <hash alg="SHA-1">f3c5f3ef104cd47e30ea1d782db18b9e89ab95be</hash>
+        <hash alg="SHA-256">b6125dcde9069008b8675d83c50462cc2571f9fdcb613ffeed169425b4514300</hash>
+        <hash alg="SHA-512">5ce4b770ec0df0497933589c705de537fd9ea6d8638c1d005c79ad2da41870bfa3dbe2ce091c2c6b830e6c09b4a9dea6afd848308392b9abefa698b192e346ba</hash>
+        <hash alg="SHA-384">50eaf210bebc2aaa4cd56dacb4269eb381b1c954de1f0cfb22d2762f59c0fde3e33139783ed5e32205d2c832f36b5bf7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-languages@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-xml@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-spring-xml</name>
+      <version>3.14.2</version>
+      <description>Camel Spring with XML DSL</description>
+      <hashes>
+        <hash alg="MD5">6e77ea7f937aa8ae29d5f47ae602558a</hash>
+        <hash alg="SHA-1">98cdb62ac27f70619e59072430ab1dffc771228b</hash>
+        <hash alg="SHA-256">7219600cfb9b0024f00cc7b2b464eac349ae8b0d6c6528bf7c5c7370122f29b8</hash>
+        <hash alg="SHA-512">949d2064aa927ee2adf79f73b28c5dc286c28eb9ae32e25d887f7b629f7967482de069ab7166459fa46e6f93c61db80d4ed353b02b135bf6dfe8c620f767b760</hash>
+        <hash alg="SHA-384">e72820fcf5b2e4dc97d380864da071a134c3f80a6a29468ef5e5c14a9fe3ef96c4fe5e3db506696a57a0f2a07eb82ca6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-spring-xml@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-xml-jaxb</name>
+      <version>3.14.2</version>
+      <description>Camel XML JAXB</description>
+      <hashes>
+        <hash alg="MD5">693c6f40269cf8031474b02bea688032</hash>
+        <hash alg="SHA-1">2a45d28456217f2fe6093a055d18545b7ab4735e</hash>
+        <hash alg="SHA-256">52af838440f26c58941d1c380faa9b5bbc6fbdc17fc668c3f2daace713cbdb2f</hash>
+        <hash alg="SHA-512">8ba98685df77ef7df14f207dc9cfaffcce74afd4a3b1a314badc357b4c03518b220b2c14fa54b48538957deb8b5b1e27339dbac7c130a4e7b0060eb213fb9565</hash>
+        <hash alg="SHA-384">5bd60b9fb07172f321df0294324ea5fd89b4944cd3bca8b2937edac7fc70c1a17882d7d29975e2618413bc2f2b22f457</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-core</name>
+      <version>2.3.0</version>
+      <description>Old JAXB Core module. Contains sources required by XJC, JXC and Runtime modules with dependencies.</description>
+      <hashes>
+        <hash alg="MD5">c97c33a3fa1ba9c96b7fd640337a2361</hash>
+        <hash alg="SHA-1">d044c784e41d026778693fb44a8026c1fd9a7506</hash>
+        <hash alg="SHA-256">33061af8d2a07379d452f8f0fddcbbf518428dfd3b83d9e2d479c1948020795b</hash>
+        <hash alg="SHA-512">c09afdcd1ff46605975ef0baaf2e81fbb8016f2d3ead844db68c4142bdebf251a500972c1bc9f4311fd14ed5ed2a2a61533d0c459f535d5960284cf1cd38cae3</hash>
+        <hash alg="SHA-384">b9f74db7d73f19099497fe325affda1eea54c614b6bffc168fefd39aef69d96f27346e81eece79e8637d60d6cfb3df9e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+          <url>http://glassfish.java.net/public/CDDL+GPL_1_1.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/JAXB</url></reference><reference type="mailing-list"><url>http://java.net/projects/jaxb/lists/users/archive</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb/sources/v2/show</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.3?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-impl</name>
+      <version>2.3.3</version>
+      <description>Old JAXB Runtime module. Contains sources required for runtime processing.</description>
+      <hashes>
+        <hash alg="MD5">8f59ab4ced2bb2e3a732e924852fac98</hash>
+        <hash alg="SHA-1">3758e8c1664979749e647a9ca8c7ea1cd83c9b1e</hash>
+        <hash alg="SHA-256">e5178d0c7948247f75a13c689bf36f4d5d4910a121f712aa3b20ae94377069d8</hash>
+        <hash alg="SHA-512">824090c456ee12057199bfd98fdae535a30805b16c8257941ec8fe6ecabba7b5879a1833ed004db401c7dd928e5f10216f50415584aa48fc37b2632405fe6325</hash>
+        <hash alg="SHA-384">57b23e2e7ee0edbb8bd5a8932111a21acb2bf4402e91e4cfbbbc0a18ca87d9636705aa131fb59dd8e39b9787b964b080</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.3?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.activation</group>
+      <name>jakarta.activation</name>
+      <version>1.2.2</version>
+      <description>${project.name}</description>
+      <hashes>
+        <hash alg="MD5">0b8bee3bf29b9a015f8b992035581a7c</hash>
+        <hash alg="SHA-1">74548703f9851017ce2f556066659438019e7eb5</hash>
+        <hash alg="SHA-256">02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a</hash>
+        <hash alg="SHA-512">8bd94a4370b827e3904f31253b022e5c1851896d3b616ca7daebfef259238cedc56d4ced32c74f24a13c3e2295b0ea012af5d04656b7f713cc53a2f18d5e2cf7</hash>
+        <hash alg="SHA-384">1cb0aff8b73ba52a9931b2cf13c75a1ce6665fb826bf97ede66db75c532136aa189fb53a1925e62b6eef572309ef3b9a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
+      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-xml@3.14.2?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.camel</group>
+      <name>camel-core-xml</name>
+      <version>3.14.2</version>
+      <description>Camel Core XML support</description>
+      <hashes>
+        <hash alg="MD5">143e4e7cfd4d09e8c1000b658e09d7ef</hash>
+        <hash alg="SHA-1">c8c1e08b48c2b2d77bc50a64b3c05ae08606d6d4</hash>
+        <hash alg="SHA-256">100167e96aae23fc1c111c45f7dd439a6398103d56f8ef52e82043e7a57a7a81</hash>
+        <hash alg="SHA-512">6c7bcb2b107586a9fc4ac71f53e64f8eb7bee37c0392ee091b44d2c62253c3fe43695a06c1d95e30767a8499adadf874892aafb4f5676b814c287e618a800d2d</hash>
+        <hash alg="SHA-384">feea82463656ef68310047827916ee61614295979f1c39d27e750902486e172544420e74b68711ed6862eeeacb3ec1c6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.camel/camel-core-xml@3.14.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+    </component>
+  </components>
+</bom>
